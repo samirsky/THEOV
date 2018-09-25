@@ -1,54 +1,5 @@
 [
  {
-  "sid":"THEOV:252",
-  "className":"Simulink.Annotation",
-  "icon":"WebViewIcon1",
-  "name":"Derivative of shipping model ('aero_guidance') by MathWorks  which is Copyright 1990-2014 The MathWorks, Inc.   Also itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
-  "label":"Derivative of shipping model ('aero_guidance') by MathWorks  which is Copyright 1990-2014 The MathWorks, Inc.   Also itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
-  "parent":"THEOV",
-  "inspector":{
-   "params":[
-    "Text",
-    "DropShadow",
-    "Interpreter",
-    "FontName",
-    "FontWeight",
-    "FontSize",
-    "FontAngle",
-    "ForegroundColor",
-    "BackgroundColor",
-    "HorizontalAlignment",
-    "UseDisplayTextAsClickCallback",
-    "ClickFcn"
-   ],
-   "values":[
-    "Derivative of shipping model ('aero_guidance') by MathWorks \nwhich is Copyright 1990-2014 The MathWorks, Inc.  \nAlso itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
-    "off",
-    "off",
-    "auto",
-    "auto",
-    -1,
-    "auto",
-    "black",
-    "white",
-    "center",
-    "off",
-    ""
-   ],
-   "tabs":[
-   ],
-   "tabs_idx":[
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
   "sid":"THEOV:298",
   "className":"Simulink.Annotation",
   "icon":"WebViewIcon1",
@@ -98,6 +49,104 @@
   ]
  },
  {
+  "sid":"THEOV:380",
+  "className":"Simulink.Annotation",
+  "icon":"WebViewIcon1",
+  "name":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\"> p, li { white-space: pre-wrap; } </style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\"> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"[$unpackedFolder]/simulink/resources/mwimg_a881769b-e6b7-4683-a6ba-aeff9629f65a.jpg\" width=\"270\" height=\"202.32\" /></p></body></html>",
+  "label":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\"> p, li { white-space: pre-wrap; } </style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\"> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"[$unpackedFolder]/simulink/resources/mwimg_a881769b-e6b7-4683-a6ba-aeff9629f65a.jpg\" width=\"270\" height=\"202.32\" /></p></body></html>",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+    "Text",
+    "DropShadow",
+    "Interpreter",
+    "FontName",
+    "FontWeight",
+    "FontSize",
+    "FontAngle",
+    "ForegroundColor",
+    "BackgroundColor",
+    "HorizontalAlignment",
+    "UseDisplayTextAsClickCallback",
+    "ClickFcn"
+   ],
+   "values":[
+    "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"[$unpackedFolder]/simulink/resources/mwimg_a881769b-e6b7-4683-a6ba-aeff9629f65a.jpg\" width=\"270\" height=\"202.32\" /></p></body></html>",
+    "off",
+    "rich",
+    "auto",
+    "auto",
+    -1,
+    "auto",
+    "black",
+    "white",
+    "left",
+    "off",
+    ""
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:252",
+  "className":"Simulink.Annotation",
+  "icon":"WebViewIcon1",
+  "name":"Derivative of shipping model ('aero_guidance') by MathWorks  which is Copyright 1990-2014 The MathWorks, Inc.   Also itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
+  "label":"Derivative of shipping model ('aero_guidance') by MathWorks  which is Copyright 1990-2014 The MathWorks, Inc.   Also itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+    "Text",
+    "DropShadow",
+    "Interpreter",
+    "FontName",
+    "FontWeight",
+    "FontSize",
+    "FontAngle",
+    "ForegroundColor",
+    "BackgroundColor",
+    "HorizontalAlignment",
+    "UseDisplayTextAsClickCallback",
+    "ClickFcn"
+   ],
+   "values":[
+    "Derivative of shipping model ('aero_guidance') by MathWorks \nwhich is Copyright 1990-2014 The MathWorks, Inc.  \nAlso itegrates parts of shipping model ('aeroblk_HL20') which is Copyright 2002-2017 The MathWorks, Inc.",
+    "off",
+    "off",
+    "auto",
+    "auto",
+    -1,
+    "auto",
+    "black",
+    "white",
+    "center",
+    "off",
+    ""
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
   "sid":"THEOV:238",
   "className":"Simulink.SubSystem",
   "icon":"WebViewIcon2",
@@ -112,6 +161,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -120,9 +170,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -134,11 +184,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -147,6 +197,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -156,8 +207,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -169,19 +220,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -327,6 +380,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -335,9 +389,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -349,11 +403,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -362,6 +416,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -371,8 +426,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -384,19 +439,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -442,9 +499,10 @@
     "RTWMemSecDataInternal",
     "RTWMemSecDataParameters",
     "IsSubsystemVirtual",
+    "VariantControlMode",
     "Variant",
     "VariantControl",
-    "OverrideUsingVariant",
+    "LabelModeActiveChoice",
     "GeneratePreprocessorConditionals",
     "AllowZeroVariantControls",
     "PropagateVariantConditions",
@@ -477,6 +535,7 @@
     "Inherit from model",
     "Inherit from model",
     "on",
+    "Expression",
     "off",
     "",
     "",
@@ -517,6 +576,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -525,9 +585,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -539,11 +599,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -552,6 +612,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -561,8 +622,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -574,19 +635,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -647,6 +710,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -655,9 +719,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -669,11 +733,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -682,6 +746,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -691,8 +756,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -704,19 +769,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -744,6 +811,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -752,9 +820,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -766,11 +834,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -779,6 +847,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -788,8 +857,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -801,19 +870,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -903,6 +974,168 @@
   "finder":{
    "blocktype":"Scope",
    "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:353",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Artificial Horizon",
+  "label":"Artificial Horizon",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
+  }
+ },
+ {
+  "sid":"THEOV:356",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Airspeed Indicator",
+  "label":"Airspeed Indicator",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
+  }
+ },
+ {
+  "sid":"THEOV:357",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Altimeter",
+  "label":"Altimeter",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
+  }
+ },
+ {
+  "sid":"THEOV:358",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Turn Coordinator",
+  "label":"Turn Coordinator",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
+  }
+ },
+ {
+  "sid":"THEOV:359",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Heading Indicator",
+  "label":"Heading Indicator",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
+  }
+ },
+ {
+  "sid":"THEOV:360",
+  "className":"MWDashboardBlock",
+  "icon":"WebViewIcon4",
+  "name":"Climb Rate Indicator",
+  "label":"Climb Rate Indicator",
+  "parent":"THEOV",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ContainerHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"MWDashboardBlock"
   }
  },
  {

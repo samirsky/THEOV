@@ -41,9 +41,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,188,122)">
-              <path d="M-7,0 L0,0 L0,12 L-7,12 L-7,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip3">
                 <path d="M-153,-74.0001 L44,-74.0001 L44,12 L-153,12 L-153,-74.0001 z"/>
@@ -77,19 +74,19 @@
             </g>
             <defs>
               <clipPath id="clip10">
-                <path d="M1,1 L21,1 L21,21 L1,21 L1,1 z"/>
+                <path d="M4,1 L24,1 L24,21 L4,21 L4,1 z"/>
               </clipPath>
             </defs>
-            <g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,104,48.9999)">
-              <path d="M4.5,6.5 L14.5,6.5 L14.5,16.5 L4.5,16.5" fill-rule="nonzero" vector-effect="none"/>
+            <g clip-path="url(#clip10)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,101,48.9999)">
+              <path d="M7.5,6.5 L17.5,6.5 L17.5,16.5 L7.5,16.5" fill-rule="nonzero" vector-effect="none"/>
             </g>
             <defs>
               <clipPath id="clip11">
-                <path d="M1,1 L21,1 L21,21 L1,21 L1,1 z"/>
+                <path d="M4,1 L24,1 L24,21 L4,21 L4,1 z"/>
               </clipPath>
             </defs>
-            <g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,104,48.9999)">
-              <path d="M1.5,11.5 L13.5,11.5" fill-rule="nonzero" vector-effect="none"/>
+            <g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,101,48.9999)">
+              <path d="M4.5,11.5 L16.5,11.5" fill-rule="nonzero" vector-effect="none"/>
             </g>
             <!--RAWSTRING-->
           </g>
@@ -139,9 +136,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,62,118)">
-              <path d="M0,-12 L7,-12 L7,0 L0,0 L0,-12 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip24">
                 <path d="M-34,-58.0001 L163,-58.0001 L163,28 L-34,28 L-34,-58.0001 z"/>
@@ -187,9 +181,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,45,69)">
-              <path d="M-7.10156,0 L7.10156,0 L7.10156,14 L-7.10156,14 L-7.10156,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip27">
                 <path d="M-9.89844,-21.0001 L187.102,-21.0001 L187.102,65 L-9.89844,65 L-9.89844,-21.0001 z"/>
@@ -214,9 +205,6 @@
           <g clip-path="none" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
             <path d="M60,120 L182,120" fill-rule="evenodd" vector-effect="none"/>
           </g>
-          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,65,121.5)">
-            <path d="M0,0 L2,0 L2,12 L0,12 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
-          </g>
           <!--RAWSTRING-->
         </g>
         <!--RAWSTRING-->
@@ -238,5 +226,5 @@
       <!--RAWSTRING-->
     </g>
   </g>
-  <!--generated on windows @ 2018-09-14 16:13:19 Eastern Daylight Time-->
+  <!--generated on windows @ 2018-09-25 08:06:20 Eastern Daylight Time-->
 </svg>

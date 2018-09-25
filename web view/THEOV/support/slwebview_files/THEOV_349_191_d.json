@@ -123,40 +123,42 @@
   "parent":"THEOV:349:191",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "2",
+    "Element-wise(.*)",
+    "on",
+    "[]",
+    "[]",
     "Inherit: Same as first input",
+    "off",
+    "Floor",
+    "on",
     "1",
     "All dimensions",
-    "on",
-    "2",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{
@@ -651,6 +653,9 @@
    "params":[
     "Port",
     "IconDisplay",
+    "LatchByDelayingOutsideSignal",
+    "LatchInputForFeedbackSignals",
+    "OutputFunctionCall",
     "OutMin",
     "OutMax",
     "OutDataTypeStr",
@@ -665,14 +670,14 @@
     "InputConnect",
     "Interpolate",
     "IsBusElementPort",
-    "LatchByDelayingOutsideSignal",
-    "LatchInputForFeedbackSignals",
-    "OutputFunctionCall",
     "PortName"
    ],
    "values":[
     "2",
     "Port number",
+    "off",
+    "off",
+    "off",
     "[]",
     "[]",
     "Inherit: auto",
@@ -687,9 +692,6 @@
     "",
     "on",
     "off",
-    "off",
-    "off",
-    "off",
     "Beta"
    ],
    "tabs":[
@@ -699,8 +701,8 @@
    ],
    "tabs_idx":[
     0,
-    2,
-    11
+    4,
+    14
    ]
   },
   "viewer":{
@@ -803,6 +805,9 @@
    "params":[
     "Port",
     "IconDisplay",
+    "LatchByDelayingOutsideSignal",
+    "LatchInputForFeedbackSignals",
+    "OutputFunctionCall",
     "OutMin",
     "OutMax",
     "OutDataTypeStr",
@@ -817,14 +822,14 @@
     "InputConnect",
     "Interpolate",
     "IsBusElementPort",
-    "LatchByDelayingOutsideSignal",
-    "LatchInputForFeedbackSignals",
-    "OutputFunctionCall",
     "PortName"
    ],
    "values":[
     "1",
     "Port number",
+    "off",
+    "off",
+    "off",
     "[]",
     "[]",
     "Inherit: auto",
@@ -839,9 +844,6 @@
     "",
     "on",
     "off",
-    "off",
-    "off",
-    "off",
     "Alpha"
    ],
    "tabs":[
@@ -851,8 +853,8 @@
    ],
    "tabs_idx":[
     0,
-    2,
-    11
+    4,
+    14
    ]
   },
   "viewer":{
@@ -925,6 +927,9 @@
    "params":[
     "Port",
     "IconDisplay",
+    "LatchByDelayingOutsideSignal",
+    "LatchInputForFeedbackSignals",
+    "OutputFunctionCall",
     "OutMin",
     "OutMax",
     "OutDataTypeStr",
@@ -939,14 +944,14 @@
     "InputConnect",
     "Interpolate",
     "IsBusElementPort",
-    "LatchByDelayingOutsideSignal",
-    "LatchInputForFeedbackSignals",
-    "OutputFunctionCall",
     "PortName"
    ],
    "values":[
     "2",
     "Port number",
+    "off",
+    "off",
+    "off",
     "[]",
     "[]",
     "Inherit: auto",
@@ -961,9 +966,6 @@
     "",
     "on",
     "off",
-    "off",
-    "off",
-    "off",
     "Beta"
    ],
    "tabs":[
@@ -973,8 +975,8 @@
    ],
    "tabs_idx":[
     0,
-    2,
-    11
+    4,
+    14
    ]
   },
   "viewer":{
@@ -998,6 +1000,9 @@
    "params":[
     "Port",
     "IconDisplay",
+    "LatchByDelayingOutsideSignal",
+    "LatchInputForFeedbackSignals",
+    "OutputFunctionCall",
     "OutMin",
     "OutMax",
     "OutDataTypeStr",
@@ -1012,14 +1017,14 @@
     "InputConnect",
     "Interpolate",
     "IsBusElementPort",
-    "LatchByDelayingOutsideSignal",
-    "LatchInputForFeedbackSignals",
-    "OutputFunctionCall",
     "PortName"
    ],
    "values":[
     "2",
     "Port number",
+    "off",
+    "off",
+    "off",
     "[]",
     "[]",
     "Inherit: auto",
@@ -1034,9 +1039,6 @@
     "",
     "on",
     "off",
-    "off",
-    "off",
-    "off",
     "Beta"
    ],
    "tabs":[
@@ -1046,8 +1048,8 @@
    ],
    "tabs_idx":[
     0,
-    2,
-    11
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1522,50 +1524,52 @@
   "parent":"THEOV:349:191",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "deg",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "2",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "deg",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1587,50 +1591,52 @@
   "parent":"THEOV:349:191",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "deg",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "deg",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

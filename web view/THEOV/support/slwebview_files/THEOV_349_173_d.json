@@ -1,54 +1,5 @@
 [
  {
-  "sid":"THEOV:349:180",
-  "className":"Simulink.Annotation",
-  "icon":"WebViewIcon1",
-  "name":"",
-  "label":"",
-  "parent":"THEOV:349:173",
-  "inspector":{
-   "params":[
-    "Text",
-    "DropShadow",
-    "Interpreter",
-    "FontName",
-    "FontWeight",
-    "FontSize",
-    "FontAngle",
-    "ForegroundColor",
-    "BackgroundColor",
-    "HorizontalAlignment",
-    "UseDisplayTextAsClickCallback",
-    "ClickFcn"
-   ],
-   "values":[
-    "",
-    "off",
-    "off",
-    "auto",
-    "auto",
-    -1,
-    "auto",
-    "black",
-    "white",
-    "center",
-    "off",
-    ""
-   ],
-   "tabs":[
-   ],
-   "tabs_idx":[
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
   "sid":"THEOV:349:179",
   "className":"Simulink.Outport",
   "icon":"WebViewIcon3",
@@ -298,22 +249,26 @@
   "parent":"THEOV:349:173",
   "inspector":{
    "params":[
-    "InputSignals",
     "OutputAsBus",
+    "InputSignals",
     "OutputSignals"
    ],
    "values":[
+    "off",
     [
      "k",
      "f"
     ],
-    "off",
     "k,f"
    ],
    "tabs":[
-    "Parameter Attributes"
+    "Parameter Attributes",
+    "-Other"
    ],
-   "tabs_idx":0
+   "tabs_idx":[
+    0,
+    1
+   ]
   },
   "viewer":{
    "jshandler":"webview/handlers/ElementHandler"
@@ -334,50 +289,52 @@
   "parent":"THEOV:349:173",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

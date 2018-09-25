@@ -648,38 +648,38 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "xme_0",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "xme_0",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "xme_statename",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -687,7 +687,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -733,9 +733,10 @@
     "RTWMemSecDataInternal",
     "RTWMemSecDataParameters",
     "IsSubsystemVirtual",
+    "VariantControlMode",
     "Variant",
     "VariantControl",
-    "OverrideUsingVariant",
+    "LabelModeActiveChoice",
     "GeneratePreprocessorConditionals",
     "AllowZeroVariantControls",
     "PropagateVariantConditions",
@@ -768,6 +769,7 @@
     "Inherit from model",
     "Inherit from model",
     "on",
+    "Expression",
     "off",
     "",
     "",
@@ -802,38 +804,38 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "pm_0",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "pm_0",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "pm_statename",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -841,7 +843,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -979,40 +981,42 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "*/",
+    "Element-wise(.*)",
+    "off",
+    "[]",
+    "[]",
     "Inherit: Same as first input",
+    "off",
+    "Floor",
+    "on",
     "1",
     "All dimensions",
-    "off",
-    "*/",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{
@@ -1034,50 +1038,52 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "N*m",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "2",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "N*m",
     "3",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1099,50 +1105,52 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "N",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "N",
     "3",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1245,38 +1253,38 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "Vm_0",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "Vm_0",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "Vm_statename",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -1284,7 +1292,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -1312,6 +1320,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -1320,9 +1329,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -1334,11 +1343,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -1347,6 +1356,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -1356,8 +1366,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -1369,19 +1379,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -1409,6 +1421,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -1417,9 +1430,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -1431,11 +1444,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -1444,6 +1457,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -1453,8 +1467,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -1466,19 +1480,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -1506,6 +1522,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -1514,9 +1531,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -1528,11 +1545,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -1541,6 +1558,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -1550,8 +1568,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -1563,19 +1581,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -1598,25 +1618,9 @@
   "inspector":{
    "params":[
     "UnitSystems",
-    "AllowAllUnitSystems",
-    "UnitSystems",
-    "AllowAllUnitSystems",
-    "UnitSystems",
     "AllowAllUnitSystems"
    ],
    "values":[
-    [
-     "English",
-     "SI",
-     "SI (extended)"
-    ],
-    "off",
-    [
-     "English",
-     "SI",
-     "SI (extended)"
-    ],
-    "off",
     [
      "English",
      "SI",
@@ -1810,50 +1814,52 @@
   "parent":"THEOV:261",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "kg/s",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "3",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "kg/s",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

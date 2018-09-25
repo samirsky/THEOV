@@ -1,6 +1,6 @@
 [
  {
-  "sid":"THEOV:261:89:44",
+  "sid":"THEOV:261:89:371",
   "className":"Simulink.Outport",
   "icon":"WebViewIcon3",
   "name":"Euler",
@@ -80,7 +80,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:43",
+  "sid":"THEOV:261:89:370",
   "className":"Simulink.Outport",
   "icon":"WebViewIcon3",
   "name":"DCM",
@@ -160,7 +160,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:33",
+  "sid":"THEOV:261:89:360",
   "className":"Simulink.SubSystem",
   "icon":"WebViewIcon2",
   "name":"phidot thetadot psidot",
@@ -174,6 +174,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -182,9 +183,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -196,11 +197,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -209,6 +210,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -218,8 +220,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -231,19 +233,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -257,7 +261,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:32",
+  "sid":"THEOV:261:89:359",
   "className":"Simulink.Integrator",
   "icon":"WebViewIcon3",
   "name":"phi theta psi",
@@ -265,38 +269,38 @@
   "parent":"THEOV:261:89",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "eul_0",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "eul_0",
     "off",
-    "-inf",
-    "off",
-    "off",
-    "inf",
     "on",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "eul_statename",
+    "-inf",
+    "inf",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -304,7 +308,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -318,7 +322,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:31",
+  "sid":"THEOV:261:89:358",
   "className":"Simulink.Selector",
   "icon":"WebViewIcon3",
   "name":"Selector",
@@ -326,22 +330,6 @@
   "parent":"THEOV:261:89",
   "inspector":{
    "params":[
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "NumberOfDimensions",
     "IndexMode",
     "IndexOptionArray",
@@ -369,34 +357,6 @@
     "Index vector (dialog)",
     "[3 2 1]",
     "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[3 2 1]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[3 2 1]",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[3 2 1]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[3 2 1]",
-    "1",
     "-1"
    ],
    "tabs":[
@@ -405,7 +365,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -419,7 +379,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:29",
+  "sid":"THEOV:261:89:356",
   "className":"Simulink.Inport",
   "icon":"WebViewIcon3",
   "name":"p q r ",
@@ -427,50 +387,52 @@
   "parent":"THEOV:261:89",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -484,7 +446,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:345",
+  "sid":"THEOV:261:89:357",
   "className":"Ang2DCM",
   "icon":"WebViewIcon3",
   "name":"Rotation Angles to Direction Cosine Matrix",
@@ -513,7 +475,7 @@
   }
  },
  {
-  "sid":"THEOV:261:89:31#out:1",
+  "sid":"THEOV:261:89:358#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",
@@ -564,7 +526,7 @@
   ]
  },
  {
-  "sid":"THEOV:261:89:32#out:1",
+  "sid":"THEOV:261:89:359#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",
@@ -615,7 +577,7 @@
   ]
  },
  {
-  "sid":"THEOV:261:89:33#out:1",
+  "sid":"THEOV:261:89:360#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",
@@ -666,7 +628,7 @@
   ]
  },
  {
-  "sid":"THEOV:261:89:29#out:1",
+  "sid":"THEOV:261:89:356#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",
@@ -717,7 +679,7 @@
   ]
  },
  {
-  "sid":"THEOV:261:89:345#out:1",
+  "sid":"THEOV:261:89:357#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",

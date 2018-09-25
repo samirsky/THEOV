@@ -463,6 +463,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -471,9 +472,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -485,11 +486,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -498,6 +499,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -507,8 +509,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -520,19 +522,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -776,40 +780,42 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "2",
+    "Matrix(*)",
+    "on",
+    "[]",
+    "[]",
     "Inherit: Same as first input",
+    "off",
+    "Floor",
+    "on",
     "1",
     "All dimensions",
-    "on",
-    "2",
-    "off",
-    "Matrix(*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{
@@ -839,54 +845,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[3]",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[3]",
     "1",
     "One-based",
     [
@@ -910,7 +872,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -991,24 +953,24 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
     "InputSameDT",
-    "LockScale",
-    "OutMax",
     "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
     "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SaturateOnIntegerOverflow",
+    "SampleTime"
    ],
    "values":[
+    "off",
+    "[]",
+    "[]",
     "Inherit: Inherit via internal rule",
     "off",
-    "off",
-    "[]",
-    "[]",
     "Floor",
-    "-1",
-    "on"
+    "on",
+    "-1"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -1016,7 +978,7 @@
    ],
    "tabs_idx":[
     0,
-    1
+    7
    ]
   },
   "viewer":{
@@ -1083,50 +1045,52 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "4",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1148,50 +1112,52 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "rad",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "3",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "rad",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1213,50 +1179,52 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "meter",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "2",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "meter",
     "3",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1278,50 +1246,52 @@
   "parent":"THEOV:343",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "m/s",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "m/s",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

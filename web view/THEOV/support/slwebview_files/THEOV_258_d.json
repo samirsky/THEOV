@@ -137,28 +137,30 @@
   "parent":"THEOV:258",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "InputSameDT",
     "Operator",
+    "ZeroCross",
+    "InputSameDT",
+    "OutDataTypeStr",
     "RndMeth",
-    "SampleTime",
-    "ZeroCross"
+    "SampleTime"
    ],
    "values":[
-    "boolean",
-    "on",
     ">=",
+    "on",
+    "on",
+    "boolean",
     "Nearest",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Data Type",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    5
    ]
   },
   "viewer":{
@@ -180,50 +182,52 @@
   "parent":"THEOV:258",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

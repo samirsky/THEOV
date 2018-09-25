@@ -41,9 +41,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,295,104)">
-              <path d="M-7.92969,0 L7.92969,0 L7.92969,14 L-7.92969,14 L-7.92969,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip3">
                 <path d="M-259.07,-84 L27.9297,-84 L27.9297,49 L-259.07,49 L-259.07,-84 z"/>
@@ -285,9 +282,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,98,87)">
-              <path d="M-7,0 L0,0 L0,12 L-7,12 L-7,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip22">
                 <path d="M-63,-67 L224,-67 L224,66 L-63,66 L-63,-67 z"/>
@@ -333,9 +327,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,45,94)">
-              <path d="M-4.32812,0 L4.32812,0 L4.32812,14 L-4.32812,14 L-4.32812,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip25">
                 <path d="M-12.6719,-74 L274.328,-74 L274.328,59 L-12.6719,59 L-12.6719,-74 z"/>
@@ -348,9 +339,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,62,83)">
-              <path d="M0,-12 L7,-12 L7,0 L0,0 L0,-12 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip26">
                 <path d="M-34,-51 L253,-51 L253,82 L-34,82 L-34,-51 z"/>
@@ -540,5 +528,5 @@
       <!--RAWSTRING-->
     </g>
   </g>
-  <!--generated on windows @ 2018-09-14 16:13:03 Eastern Daylight Time-->
+  <!--generated on windows @ 2018-09-25 08:06:00 Eastern Daylight Time-->
 </svg>

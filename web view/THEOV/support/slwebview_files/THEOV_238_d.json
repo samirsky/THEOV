@@ -137,38 +137,38 @@
   "parent":"THEOV:238",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "pos_tgt(2)",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "pos_tgt(2)",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "''",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -176,7 +176,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -198,38 +198,38 @@
   "parent":"THEOV:238",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "pos_tgt(1)",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "pos_tgt(1)",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "''",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -237,7 +237,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -360,15 +360,15 @@
     "Operator",
     "ApproximationMethod",
     "OutputSignalType",
-    "SampleTime",
-    "NumberOfIterations"
+    "NumberOfIterations",
+    "SampleTime"
    ],
    "values":[
     "cos",
     "None",
     "auto",
-    "-1",
-    "11"
+    "11",
+    "-1"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -376,7 +376,7 @@
    ],
    "tabs_idx":[
     0,
-    4
+    3
    ]
   },
   "viewer":{
@@ -401,15 +401,15 @@
     "Operator",
     "ApproximationMethod",
     "OutputSignalType",
-    "SampleTime",
-    "NumberOfIterations"
+    "NumberOfIterations",
+    "SampleTime"
    ],
    "values":[
     "sin",
     "None",
     "auto",
-    "-1",
-    "11"
+    "11",
+    "-1"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -417,7 +417,7 @@
    ],
    "tabs_idx":[
     0,
-    4
+    3
    ]
   },
   "viewer":{
@@ -484,40 +484,42 @@
   "parent":"THEOV:238",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "2",
+    "Element-wise(.*)",
+    "on",
+    "[]",
+    "[]",
     "Inherit: Same as first input",
+    "off",
+    "Floor",
+    "on",
     "1",
     "All dimensions",
-    "on",
-    "2",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{
@@ -539,40 +541,42 @@
   "parent":"THEOV:238",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "2",
+    "Element-wise(.*)",
+    "on",
+    "[]",
+    "[]",
     "Inherit: Same as first input",
+    "off",
+    "Floor",
+    "on",
     "1",
     "All dimensions",
-    "on",
-    "2",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "on"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{

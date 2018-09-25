@@ -633,6 +633,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -641,9 +642,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -655,11 +656,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -668,6 +669,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -677,8 +679,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -690,19 +692,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -730,6 +734,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -738,9 +743,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -752,11 +757,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -765,6 +770,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -774,8 +780,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -787,19 +793,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -821,50 +829,52 @@
   "parent":"THEOV:4",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "4",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -886,50 +896,52 @@
   "parent":"THEOV:4",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "3",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -951,50 +963,52 @@
   "parent":"THEOV:4",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "2",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1016,50 +1030,52 @@
   "parent":"THEOV:4",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -1096,7 +1112,13 @@
     "inertia_f",
     "k_quat",
     "vre_flag",
-    "abi_flag"
+    "abi_flag",
+    "xme_statename",
+    "Vm_statename",
+    "eul_statename",
+    "quat_statename",
+    "pm_statename",
+    "mass_statename"
    ],
    "values":[
     "Metric (MKS)",
@@ -1104,7 +1126,7 @@
     "Euler Angles",
     "[x_ini 0 -h_ini]",
     "[v_ini 0 0]",
-    "[0 theta_ini 0]",
+    "[0 alpha_ini 0]",
     "[0 q_ini 0]",
     "mass",
     "0.1*mass",
@@ -1114,7 +1136,13 @@
     "[0.1*Iyy 0 0; 0 Iyy 0; 0 0 Iyy]",
     "1.0",
     "off",
-    "off"
+    "off",
+    "''",
+    "''",
+    "''",
+    "''",
+    "''",
+    "''"
    ],
    "tabs":[
    ],
@@ -1197,54 +1225,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
     "1",
     "One-based",
     [
@@ -1268,7 +1252,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1298,54 +1282,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
     "1",
     "One-based",
     [
@@ -1369,7 +1309,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1399,54 +1339,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
     "1",
     "One-based",
     [
@@ -1470,7 +1366,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1500,54 +1396,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "[1 3]"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "[1 3]",
     "1",
     "One-based",
     [
@@ -1571,7 +1423,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1601,54 +1453,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
     "1",
     "One-based",
     [
@@ -1672,7 +1480,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1702,54 +1510,10 @@
     "InputPortWidth",
     "IndexOptions",
     "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
-    "NumberOfDimensions",
-    "IndexMode",
-    "IndexOptionArray",
-    "IndexParamArray",
-    "OutputSizeArray",
-    "InputPortWidth",
-    "IndexOptions",
-    "Indices",
     "OutputSizes",
     "SampleTime"
    ],
    "values":[
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
-    "1",
-    "One-based",
-    [
-     "Index vector (dialog)"
-    ],
-    [
-     "2"
-    ],
-    [
-     "1"
-    ],
-    "3",
-    "Index vector (dialog)",
-    "2",
     "1",
     "One-based",
     [
@@ -1773,7 +1537,7 @@
    ],
    "tabs_idx":[
     0,
-    24
+    8
    ]
   },
   "viewer":{
@@ -1834,6 +1598,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -1842,9 +1607,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -1856,11 +1621,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -1869,6 +1634,7 @@
     "ExplicitOnly",
     "on",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -1878,8 +1644,8 @@
     "off",
     "off",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -1891,19 +1657,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -1976,6 +1744,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -1984,9 +1753,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -1998,11 +1767,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -2011,6 +1780,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -2020,8 +1790,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -2033,19 +1803,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -2073,6 +1845,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -2081,9 +1854,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -2095,11 +1868,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -2108,6 +1881,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -2117,8 +1891,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -2130,19 +1904,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -2170,6 +1946,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -2178,9 +1955,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -2192,11 +1969,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -2205,6 +1982,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -2214,8 +1992,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -2227,19 +2005,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -2267,6 +2047,7 @@
     "PermitHierarchicalResolution",
     "TreatAsAtomicUnit",
     "TreatAsGroupedWhenPropagatingVariantConditions",
+    "RTWSystemCode",
     "ActiveVariant",
     "ActiveVariantBlock",
     "AllowZeroVariantControls",
@@ -2275,9 +2056,9 @@
     "FunctionWithSeparateData",
     "GeneratePreprocessorConditionals",
     "IsSubsystemVirtual",
+    "LabelModeActiveChoice",
     "MemberBlocks",
     "MinAlgLoopOccurrences",
-    "OverrideUsingVariant",
     "PropExecContextOutsideSubsystem",
     "PropagateVariantConditions",
     "RTWFcnName",
@@ -2289,11 +2070,11 @@
     "RTWMemSecDataParameters",
     "RTWMemSecFuncExecute",
     "RTWMemSecFuncInitTerm",
-    "RTWSystemCode",
     "SystemSampleTime",
     "TemplateBlock",
     "Variant",
-    "VariantControl"
+    "VariantControl",
+    "VariantControlMode"
    ],
    "values":[
     "FromPortIcon",
@@ -2302,6 +2083,7 @@
     "All",
     "off",
     "on",
+    "Auto",
     "",
     "",
     "off",
@@ -2311,8 +2093,8 @@
     "off",
     "on",
     "",
-    "off",
     "",
+    "off",
     "off",
     "off",
     "",
@@ -2324,19 +2106,21 @@
     "Inherit from model",
     "Inherit from model",
     "Inherit from model",
-    "Auto",
     "-1",
     "",
     "off",
-    ""
+    "",
+    "Expression"
    ],
    "tabs":[
     "Main",
+    "Code Generation",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    6
+    6,
+    7
    ]
   },
   "viewer":{
@@ -2350,160 +2134,755 @@
   }
  },
  {
+  "sid":"THEOV:354",
+  "className":"Simulink.Selector",
+  "icon":"WebViewIcon3",
+  "name":"Selector6",
+  "label":"Selector6",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "NumberOfDimensions",
+    "IndexMode",
+    "IndexOptionArray",
+    "IndexParamArray",
+    "OutputSizeArray",
+    "InputPortWidth",
+    "IndexOptions",
+    "Indices",
+    "OutputSizes",
+    "SampleTime"
+   ],
+   "values":[
+    "1",
+    "One-based",
+    [
+     "Index vector (dialog)"
+    ],
+    [
+     "[1 2]"
+    ],
+    [
+     "1"
+    ],
+    "3",
+    "Index vector (dialog)",
+    "[1 2]",
+    "1",
+    "-1"
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    8
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Selector",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:355",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator",
+  "label":"Terminator",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:361",
+  "className":"Simulink.Selector",
+  "icon":"WebViewIcon3",
+  "name":"Selector7",
+  "label":"Selector7",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "NumberOfDimensions",
+    "IndexMode",
+    "IndexOptionArray",
+    "IndexParamArray",
+    "OutputSizeArray",
+    "InputPortWidth",
+    "IndexOptions",
+    "Indices",
+    "OutputSizes",
+    "SampleTime"
+   ],
+   "values":[
+    "1",
+    "One-based",
+    [
+     "Index vector (dialog)"
+    ],
+    [
+     "[3]"
+    ],
+    [
+     "1"
+    ],
+    "3",
+    "Index vector (dialog)",
+    "[3]",
+    "1",
+    "-1"
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    8
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Selector",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:362",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator1",
+  "label":"Terminator1",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:363",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"ft_min_climb_rate",
+  "label":"ft_min_climb_rate",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "-1/m2ft*60",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "uint8",
+    "off",
+    "Floor",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: Inherit via internal rule",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:364",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"ft_altitude",
+  "label":"ft_altitude",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "1/0.3048",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "uint8",
+    "off",
+    "Floor",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: Inherit via internal rule",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:365",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator2",
+  "label":"Terminator2",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:366",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator3",
+  "label":"Terminator3",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:367",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"kt_speed",
+  "label":"kt_speed",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "1.94384",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "uint8",
+    "off",
+    "Floor",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: Inherit via internal rule",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:368",
+  "className":"Simulink.Selector",
+  "icon":"WebViewIcon3",
+  "name":"Selector8",
+  "label":"Selector8",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "NumberOfDimensions",
+    "IndexMode",
+    "IndexOptionArray",
+    "IndexParamArray",
+    "OutputSizeArray",
+    "InputPortWidth",
+    "IndexOptions",
+    "Indices",
+    "OutputSizes",
+    "SampleTime"
+   ],
+   "values":[
+    "1",
+    "One-based",
+    [
+     "Index vector (dialog)"
+    ],
+    [
+     "3"
+    ],
+    [
+     "1"
+    ],
+    "3",
+    "Index vector (dialog)",
+    "3",
+    "1",
+    "-1"
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    8
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Selector",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:369",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator4",
+  "label":"Terminator4",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:370",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"deg_yaw",
+  "label":"deg_yaw",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "180/pi",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "uint8",
+    "off",
+    "Floor",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: Inherit via internal rule",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:371",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"Force ---> Acc",
+  "label":"Force ---> Acc",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "1/mass",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "Inherit: Same as input",
+    "off",
+    "Floor",
+    "on",
+    "[]",
+    "[]",
+    "Inherit: Same as input",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:372",
+  "className":"Simulink.Terminator",
+  "icon":"WebViewIcon3",
+  "name":"Terminator5",
+  "label":"Terminator5",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Terminator",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:374",
+  "className":"Simulink.Gain",
+  "icon":"WebViewIcon3",
+  "name":"deg_pitchRoll",
+  "label":"deg_pitchRoll",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "Gain",
+    "Multiplication",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
+    "ParamMin",
+    "ParamMax",
+    "ParamDataTypeStr",
+    "SampleTime"
+   ],
+   "values":[
+    "180/pi",
+    "Element-wise(K.*u)",
+    "[]",
+    "[]",
+    "uint8",
+    "off",
+    "Floor",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: Inherit via internal rule",
+    "-1"
+   ],
+   "tabs":[
+    "Main",
+    "Signal Attributes",
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    2,
+    8,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Gain",
+   "masktype":""
+  }
+ },
+ {
+  "sid":"THEOV:383",
+  "className":"Simulink.Integrator",
+  "icon":"WebViewIcon3",
+  "name":"Integrator",
+  "label":"Integrator",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "ExternalReset",
+    "InitialConditionSource",
+    "InitialCondition",
+    "LimitOutput",
+    "WrapState",
+    "ShowSaturationPort",
+    "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
+    "UpperSaturationLimit",
+    "WrappedStateLowerValue",
+    "WrappedStateUpperValue"
+   ],
+   "values":[
+    "none",
+    "internal",
+    "0",
+    "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "''",
+    "-inf",
+    "inf",
+    "-pi",
+    "pi"
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "-Other"
+   ],
+   "tabs_idx":[
+    0,
+    11
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"Integrator",
+   "masktype":""
+  }
+ },
+ {
   "sid":"THEOV:54#out:1",
-  "className":"Simulink.Line",
-  "icon":"WebViewIcon5",
-  "name":"",
-  "label":"",
-  "parent":"THEOV:4",
-  "inspector":{
-   "params":[
-    "SignalNameFromLabel",
-    "MustResolveToSignal",
-    "ShowPropagatedSignal",
-    "DataLogging",
-    "TestPoint",
-    "SignalObjectPackage",
-    "StorageClass",
-    "Description",
-    "documentLink"
-   ],
-   "values":[
-    "",
-    "off",
-    "off",
-    "off",
-    "off",
-    "Simulink",
-    "Auto",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes",
-    "Logging and Accessibility",
-    "Code Generation",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    3,
-    5,
-    7
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:5#out:1",
-  "className":"Simulink.Line",
-  "icon":"WebViewIcon5",
-  "name":"",
-  "label":"",
-  "parent":"THEOV:4",
-  "inspector":{
-   "params":[
-    "SignalNameFromLabel",
-    "MustResolveToSignal",
-    "ShowPropagatedSignal",
-    "DataLogging",
-    "TestPoint",
-    "SignalObjectPackage",
-    "StorageClass",
-    "Description",
-    "documentLink"
-   ],
-   "values":[
-    "",
-    "off",
-    "off",
-    "off",
-    "off",
-    "Simulink",
-    "Auto",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes",
-    "Logging and Accessibility",
-    "Code Generation",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    3,
-    5,
-    7
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:6#out:1",
-  "className":"Simulink.Line",
-  "icon":"WebViewIcon5",
-  "name":"",
-  "label":"",
-  "parent":"THEOV:4",
-  "inspector":{
-   "params":[
-    "SignalNameFromLabel",
-    "MustResolveToSignal",
-    "ShowPropagatedSignal",
-    "DataLogging",
-    "TestPoint",
-    "SignalObjectPackage",
-    "StorageClass",
-    "Description",
-    "documentLink"
-   ],
-   "values":[
-    "",
-    "off",
-    "off",
-    "off",
-    "off",
-    "Simulink",
-    "Auto",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes",
-    "Logging and Accessibility",
-    "Code Generation",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    3,
-    5,
-    7
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:54#out:2",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",
@@ -2729,7 +3108,7 @@
     "",
     "off",
     "off",
-    "off",
+    "on",
     "off",
     "Simulink",
     "Auto",
@@ -4136,6 +4515,567 @@
  },
  {
   "sid":"THEOV:8#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "off",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:354#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"pitch_roll",
+  "label":"pitch_roll",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "pitch_roll",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:361#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"climbRate",
+  "label":"climbRate",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "climbRate",
+    "off",
+    "off",
+    "off",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:363#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:364#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:54#out:2",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "off",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:367#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:368#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "off",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:370#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:371#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "off",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:374#out:1",
+  "className":"Simulink.Line",
+  "icon":"WebViewIcon5",
+  "name":"",
+  "label":"",
+  "parent":"THEOV:4",
+  "inspector":{
+   "params":[
+    "SignalNameFromLabel",
+    "MustResolveToSignal",
+    "ShowPropagatedSignal",
+    "DataLogging",
+    "TestPoint",
+    "SignalObjectPackage",
+    "StorageClass",
+    "Description",
+    "documentLink"
+   ],
+   "values":[
+    "",
+    "off",
+    "off",
+    "on",
+    "off",
+    "Simulink",
+    "Auto",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes",
+    "Logging and Accessibility",
+    "Code Generation",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    3,
+    5,
+    7
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:383#out:1",
   "className":"Simulink.Line",
   "icon":"WebViewIcon5",
   "name":"",

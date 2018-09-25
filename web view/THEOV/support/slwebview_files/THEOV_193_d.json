@@ -206,38 +206,38 @@
   "parent":"THEOV:193",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "0",
-    "auto",
-    "''",
     "none",
-    "off",
     "internal",
+    "0",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "''",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -245,7 +245,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -444,38 +444,38 @@
   "parent":"THEOV:193",
   "inspector":{
    "params":[
-    "InitialCondition",
-    "AbsoluteTolerance",
-    "ContinuousStateAttributes",
     "ExternalReset",
-    "IgnoreLimit",
     "InitialConditionSource",
+    "InitialCondition",
     "LimitOutput",
-    "LowerSaturationLimit",
+    "WrapState",
     "ShowSaturationPort",
     "ShowStatePort",
+    "AbsoluteTolerance",
+    "IgnoreLimit",
+    "ZeroCross",
+    "ContinuousStateAttributes",
+    "LowerSaturationLimit",
     "UpperSaturationLimit",
-    "WrapState",
     "WrappedStateLowerValue",
-    "WrappedStateUpperValue",
-    "ZeroCross"
+    "WrappedStateUpperValue"
    ],
    "values":[
-    "0",
-    "auto",
-    "''",
     "none",
-    "off",
     "external",
+    "0",
     "off",
+    "off",
+    "off",
+    "off",
+    "auto",
+    "off",
+    "on",
+    "''",
     "-inf",
-    "off",
-    "off",
     "inf",
-    "off",
     "-pi",
-    "pi",
-    "on"
+    "pi"
    ],
    "tabs":[
     "Parameter Attributes",
@@ -483,7 +483,7 @@
    ],
    "tabs_idx":[
     0,
-    2
+    11
    ]
   },
   "viewer":{
@@ -505,36 +505,36 @@
   "parent":"THEOV:193",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Interpolate",
-    "OutMax",
-    "OutMin",
-    "PortDimensions",
-    "PropagateVarSize",
-    "SampleTime",
-    "ShowOutputPort",
     "StatesWhenEnabling",
-    "ZeroCross"
+    "PropagateVarSize",
+    "ShowOutputPort",
+    "ZeroCross",
+    "PortDimensions",
+    "SampleTime",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "Interpolate"
    ],
    "values":[
-    "double",
-    "on",
-    "[]",
-    "[]",
-    "1",
-    "Only when enabling",
-    "-1",
-    "off",
     "reset",
+    "Only when enabling",
+    "off",
+    "on",
+    "1",
+    "-1",
+    "[]",
+    "[]",
+    "double",
     "on"
    ],
    "tabs":[
-    "Signal Attributes",
-    "-Other"
+    "Main",
+    "Signal Attributes"
    ],
    "tabs_idx":[
     0,
-    1
+    4
    ]
   },
   "viewer":{
@@ -556,50 +556,52 @@
   "parent":"THEOV:193",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "2",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{
@@ -621,50 +623,52 @@
   "parent":"THEOV:193",
   "inspector":{
    "params":[
-    "OutDataTypeStr",
-    "Unit",
-    "BusOutputAsStruct",
+    "Port",
     "IconDisplay",
-    "InputConnect",
-    "Interpolate",
     "LatchByDelayingOutsideSignal",
     "LatchInputForFeedbackSignals",
-    "LockScale",
-    "OutMax",
-    "OutMin",
     "OutputFunctionCall",
-    "Port",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale",
+    "Unit",
     "PortDimensions",
+    "VarSizeSig",
     "SampleTime",
     "SignalType",
-    "VarSizeSig"
+    "BusOutputAsStruct",
+    "InputConnect",
+    "Interpolate"
    ],
    "values":[
-    "Inherit: auto",
-    "inherit",
-    "off",
-    "Port number",
-    "",
-    "on",
-    "off",
-    "off",
-    "off",
-    "[]",
-    "[]",
-    "off",
     "1",
+    "Port number",
+    "off",
+    "off",
+    "off",
+    "[]",
+    "[]",
+    "Inherit: auto",
+    "off",
+    "inherit",
     "-1",
+    "Inherit",
     "-1",
     "auto",
-    "Inherit"
+    "off",
+    "",
+    "on"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    2
+    4,
+    14
    ]
   },
   "viewer":{

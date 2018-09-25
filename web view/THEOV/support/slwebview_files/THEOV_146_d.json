@@ -8,20 +8,36 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
+    2,
     false,
+    "ChildActivity",
     "Auto",
     "Fuze",
     false,
     false,
+    "SignalName",
+    "Fuze",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -32,53 +48,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:8",
-  "className":"Stateflow.State",
-  "icon":"WebViewIcon9",
-  "name":"Inert",
-  "label":"Inert",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "HasOutputData",
-    "InlineOption",
-    "LabelString",
-    "DataLogging",
-    "TestPoint",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    false,
-    "Auto",
-    "Inert\nen:Fuze = 0;",
-    false,
-    false,
-    "",
-    ""
-   ],
-   "tabs":[
-    "General",
-    "Logging",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    3,
-    5
+    5,
+    13
    ]
   },
   "viewer":{
@@ -99,19 +70,33 @@
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
     "Armed\nen:Fuze=1;",
     false,
     false,
+    "SignalName",
+    "Fuze.Armed",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -122,8 +107,67 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:8",
+  "className":"Stateflow.State",
+  "icon":"WebViewIcon9",
+  "name":"Inert",
+  "label":"Inert",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "HasOutputData",
+    "OutputMonitoringMode",
+    "InlineOption",
+    "LabelString",
+    "DataLogging",
+    "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    false,
+    "SelfActivity",
+    "Auto",
+    "Inert\nen:Fuze = 0;",
+    false,
+    false,
+    "SignalName",
+    "Fuze.Inert",
+    false,
+    5000,
+    false,
+    2,
+    "",
+    ""
+   ],
+   "tabs":[
+    "General",
+    "Logging",
+    "Documentation"
+   ],
+   "tabs_idx":[
+    0,
+    4,
+    12
    ]
   },
   "viewer":{
@@ -143,74 +187,14 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    1,
     "Timeout",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes"
-   ],
-   "tabs_idx":0
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:17",
-  "className":"Stateflow.Transition",
-  "icon":"WebViewIcon10",
-  "name":"",
-  "label":"?",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "LabelString",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    "?",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes"
-   ],
-   "tabs_idx":0
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:18",
-  "className":"Stateflow.Transition",
-  "icon":"WebViewIcon10",
-  "name":"",
-  "label":"enter(Guidance.Target_Search)",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "LabelString",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    "enter(Guidance.Target_Search)",
     "",
     ""
    ],
@@ -236,12 +220,80 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    2,
     "[in(Guidance.Radar_Guided)&&Range<1000]",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes"
+   ],
+   "tabs_idx":0
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:18",
+  "className":"Stateflow.Transition",
+  "icon":"WebViewIcon10",
+  "name":"",
+  "label":"enter(Guidance.Target_Search)",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "ExecutionOrder",
+    "LabelString",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    1,
+    "enter(Guidance.Target_Search)",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes"
+   ],
+   "tabs_idx":0
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:17",
+  "className":"Stateflow.Transition",
+  "icon":"WebViewIcon10",
+  "name":"",
+  "label":"?",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "ExecutionOrder",
+    "LabelString",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    1,
+    "?",
     "",
     ""
    ],
@@ -267,20 +319,36 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
+    1,
     false,
+    "ChildActivity",
     "Auto",
     "Guidance",
     false,
     false,
+    "SignalName",
+    "Guidance",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -291,8 +359,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    5,
+    13
    ]
   },
   "viewer":{
@@ -313,19 +381,33 @@
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
     "Blind_Range\nen:Mode=4;",
     false,
     false,
+    "SignalName",
+    "Guidance.Blind_Range",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -336,8 +418,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
    ]
   },
   "viewer":{
@@ -358,19 +440,33 @@
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
     "Radar_Guided\nen:Mode=3;\nex:az_fix=az_dem;",
     false,
     false,
+    "SignalName",
+    "Guidance.Radar_Guided",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -381,8 +477,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
    ]
   },
   "viewer":{
@@ -394,28 +490,42 @@
   ]
  },
  {
-  "sid":"THEOV:146:4",
+  "sid":"THEOV:146:3",
   "className":"Stateflow.State",
   "icon":"WebViewIcon9",
-  "name":"Abort",
-  "label":"Abort",
+  "name":"Target_Lock",
+  "label":"Target_Lock",
   "parent":"THEOV:146",
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
-    "Abort\nen:Detonate=1;",
+    "Target_Lock\nen:Mode=2;Acquire_time=t;",
     false,
     false,
+    "SignalName",
+    "Guidance.Target_Lock",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -426,8 +536,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
    ]
   },
   "viewer":{
@@ -448,19 +558,33 @@
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
     "Target_Search\n  en: Mode=1;Sigma_d=0;incr=-100;Acquire_time=t;\n  du: Sigma_d=Sigma_d+0.01*incr;",
     false,
     false,
+    "SignalName",
+    "Guidance.Target_Search",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -471,8 +595,8 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
    ]
   },
   "viewer":{
@@ -492,11 +616,13 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    1,
     "[Sigma_d>30||Sigma_d<-30]  / incr=-incr;",
     "",
     ""
@@ -515,28 +641,42 @@
   ]
  },
  {
-  "sid":"THEOV:146:3",
+  "sid":"THEOV:146:4",
   "className":"Stateflow.State",
   "icon":"WebViewIcon9",
-  "name":"Target_Lock",
-  "label":"Target_Lock",
+  "name":"Abort",
+  "label":"Abort",
   "parent":"THEOV:146",
   "inspector":{
    "params":[
     "HasOutputData",
+    "OutputMonitoringMode",
     "InlineOption",
     "LabelString",
     "DataLogging",
     "TestPoint",
+    "NameMode",
+    "LoggingName",
+    "LimitDataPoints",
+    "MaxPoints",
+    "DecimateData",
+    "Decimation",
     "Description",
     "Document"
    ],
    "values":[
     false,
+    "SelfActivity",
     "Auto",
-    "Target_Lock\nen:Mode=2;Acquire_time=t;",
+    "Abort\nen:Detonate=1;",
     false,
     false,
+    "SignalName",
+    "Guidance.Abort",
+    false,
+    5000,
+    false,
+    2,
     "",
     ""
    ],
@@ -547,102 +687,9 @@
    ],
    "tabs_idx":[
     0,
-    3,
-    5
+    4,
+    12
    ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:16",
-  "className":"Stateflow.Transition",
-  "icon":"WebViewIcon10",
-  "name":"",
-  "label":"[Range<2000]",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "LabelString",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    "[Range<2000]",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes"
-   ],
-   "tabs_idx":0
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:11",
-  "className":"Stateflow.Transition",
-  "icon":"WebViewIcon10",
-  "name":"",
-  "label":"[Acquire==0]",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "LabelString",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    "[Acquire==0]",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes"
-   ],
-   "tabs_idx":0
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":[
-  ]
- },
- {
-  "sid":"THEOV:146:10",
-  "className":"Stateflow.Transition",
-  "icon":"WebViewIcon10",
-  "name":"",
-  "label":"{az_fix=-9.81;}",
-  "parent":"THEOV:146",
-  "inspector":{
-   "params":[
-    "LabelString",
-    "Description",
-    "Document"
-   ],
-   "values":[
-    "{az_fix=-9.81;}",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes"
-   ],
-   "tabs_idx":0
   },
   "viewer":{
    "jshandler":"webview/handlers/ElementHandler"
@@ -661,11 +708,13 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    1,
     "[t-Acquire_time>0.2]",
     "",
     ""
@@ -692,11 +741,13 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    1,
     "[Acquire==1]",
     "",
     ""
@@ -723,12 +774,113 @@
   "parent":"THEOV:146",
   "inspector":{
    "params":[
+    "ExecutionOrder",
     "LabelString",
     "Description",
     "Document"
    ],
    "values":[
+    2,
     "[t-Acquire_time>7] \n/ send(Timeout, Fuze);",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes"
+   ],
+   "tabs_idx":0
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:16",
+  "className":"Stateflow.Transition",
+  "icon":"WebViewIcon10",
+  "name":"",
+  "label":"[Range<200]",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "ExecutionOrder",
+    "LabelString",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    2,
+    "[Range<200]",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes"
+   ],
+   "tabs_idx":0
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:11",
+  "className":"Stateflow.Transition",
+  "icon":"WebViewIcon10",
+  "name":"",
+  "label":"[Acquire==0]",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "ExecutionOrder",
+    "LabelString",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    1,
+    "[Acquire==0]",
+    "",
+    ""
+   ],
+   "tabs":[
+    "Parameter Attributes"
+   ],
+   "tabs_idx":0
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"THEOV:146:10",
+  "className":"Stateflow.Transition",
+  "icon":"WebViewIcon10",
+  "name":"",
+  "label":"{az_fix=-9.81;}",
+  "parent":"THEOV:146",
+  "inspector":{
+   "params":[
+    "ExecutionOrder",
+    "LabelString",
+    "Description",
+    "Document"
+   ],
+   "values":[
+    1,
+    "{az_fix=-9.81;}",
     "",
     ""
    ],

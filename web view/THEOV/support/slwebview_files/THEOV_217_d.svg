@@ -41,9 +41,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,235,104)">
-              <path d="M-13.4766,0 L13.4766,0 L13.4766,26 L-13.4766,26 L-13.4766,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip3">
                 <path d="M-208.523,-93 L33.4766,-93 L33.4766,79 L-208.523,79 L-208.523,-93 z"/>
@@ -64,7 +61,7 @@
         <!--RAWSTRING-->
         <g id="THEOV:224">
           <g clip-path="none" fill="none" opacity="0.65098" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,174,12)">
-            <image height="175" preserveAspectRatio="none" width="31" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAACvCAYAAAAFZAVMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB/UlEQVR4nO3cwU7CQBAG4B+DHOgBE/XixYs+g8/gA/s04MELF9GUAxzgoIedCUvdKp3d7Fr6/8mkDTH9MltsoSEzAnDZqIm3b8leauftax1lLMgUQNXYTo34VmrT2LbiFYAZgCsp3bekBrCWbS2v/YB9fCrYrdSNbC15B7DC4bTt4boP4hO4zhW/88qSSo6p8BZuJYK4dj6D6/gOwL2UJdrxDq7jGi1v3tCyK/5oxIHDUq/hTkMQv4gAokOcOPEsGXf8+xcAI6nnWLxr5wupeSwMdO98Add1knTF5yXxop2/poKBIf+fEydOvC1fUkXwpCHeKzzJm66XnRMn3j/c8rldE/PMxoQvSuJ+59FfFGM6j05M59nxop0nxYd7kSFOnHhb9LvaQwlck+RK16tlJ06ceFacDweIEyf+//GuXxQ/vP3r3Lj/2S077j8ceMqNn8/DAT6TOTWfKfHhXuGIEydOnPj54V1vqcl+KQIMedmJEydOnDhx4sSJEydOnDhx4sTLhb/yPjX8lXcR/Hw6H+5FhjjxrOFd7dTwrlYEP5/Oh3uRIU48a8Y4zHCr4SaaVbDPAwSANwBLOVaNlpF8TXwNN9HOHyxnyVJqJcf8FQ8NkdPXLNGxfNr5Ro4XxP1lB44Hy1nSHEj457Jrl83zb0loFGMQH6HgEEqGyZpvY0mKrk3839sAAAAASUVORK5CYII=" y="0"/>
+            <image height="175" preserveAspectRatio="none" width="31" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAACvCAYAAAAFZAVMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB2ElEQVR4nO3cMU/CQBjG8T8GGeiAgy4sTn4YP7CfBhxcWGQoAww46HDvhaMeSu+aNvSeJ3nThpj+8l61tSV5J8B9o2bBfkq+rI7Bvq+zTA2ZA1VjO0/ED1b7xvYiXgEL4MHK76ekBna2re2zX3CIzw17snq0bUo+gS2n0/aF6z6Kz3Cde3wZVEoqO6aHD7iViOK+8wWu4yXwbJUS3/ER13HNhV/e2LJ7/CURh9NS73CnIYrfZQDZES5ceC+Ztvz5N2Bi9ZqLt+18bbXKhaF952tc152kLb4aEh+08/euYCj571y4cOHChY8Pb3tL/e4SL3fZy8VT/nv1yXlzkYSvh8TDzrMfl3I6z05O573jg3beKV7uRUa4cOHChQsfD65nNeHCx4/f1CNyNhim3HMuXHivuamLjN7DdRK9hxsEL/ciI1y4cOHjxfVORrhw4cKFCxcuXLhw4cKFCxcuvDBc36tdG32vNgg+ns7LvcgIF95rdFe7NrqrDYKPp/NyLzLChfeaKacZbjVuollF+jxAgA9gY8equTCSr4nvcBPtwsFyKdlYbe2Yf+KxIXL+s5T4sXy+870dL4qHyw7ng+VS0hxI+O+y+y6b5z8lsVGMUXzCgEMoFaXX/ABInIYT8ekrSQAAAABJRU5ErkJggg==" y="0"/>
           </g>
           <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,175,13)">
             <path d="M0,0 L20,0 L20,164 L0,164 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
@@ -300,9 +297,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,50,108)">
-              <path d="M-13.4844,0 L13.4844,0 L13.4844,14 L-13.4844,14 L-13.4844,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip28">
                 <path d="M-23.5156,-97 L218.484,-97 L218.484,75 L-23.5156,75 L-23.5156,-97 z"/>
@@ -348,9 +342,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,122.5,83)">
-              <path d="M-30.6641,-14 L30.6641,-14 L30.6641,0 L-30.6641,0 L-30.6641,-14 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip31">
                 <path d="M-78.8359,-58 L163.164,-58 L163.164,114 L-78.8359,114 L-78.8359,-58 z"/>
@@ -396,9 +387,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,30,144)">
-              <path d="M-16.8125,0 L16.8125,0 L16.8125,14 L-16.8125,14 L-16.8125,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip34">
                 <path d="M-0.1875,-133 L241.812,-133 L241.812,39 L-0.1875,39 L-0.1875,-133 z"/>
@@ -444,9 +432,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,70,169)">
-              <path d="M-20.6953,0 L20.6953,0 L20.6953,14 L-20.6953,14 L-20.6953,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip37">
                 <path d="M-36.3047,-158 L205.695,-158 L205.695,14 L-36.3047,14 L-36.3047,-158 z"/>
@@ -492,9 +477,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,135,49)">
-              <path d="M-23.9688,0 L23.9688,0 L23.9688,14 L-23.9688,14 L-23.9688,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip40">
                 <path d="M-98.0312,-38 L143.969,-38 L143.969,134 L-98.0312,134 L-98.0312,-38 z"/>
@@ -610,5 +592,5 @@
       <!--RAWSTRING-->
     </g>
   </g>
-  <!--generated on windows @ 2018-09-14 16:13:30 Eastern Daylight Time-->
+  <!--generated on windows @ 2018-09-25 08:06:35 Eastern Daylight Time-->
 </svg>

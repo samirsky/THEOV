@@ -41,9 +41,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,260,102)">
-              <path d="M-12.0859,0 L12.0859,0 L12.0859,14 L-12.0859,14 L-12.0859,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip3">
                 <path d="M-219.914,-82 L27.0859,-82 L27.0859,15 L-219.914,15 L-219.914,-82 z"/>
@@ -89,9 +86,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,260,47)">
-              <path d="M-3.16406,0 L3.16406,0 L3.16406,14 L-3.16406,14 L-3.16406,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip6">
                 <path d="M-228.836,-27 L18.1641,-27 L18.1641,70 L-228.836,70 L-228.836,-27 z"/>
@@ -137,9 +131,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,167.5,103)">
-              <path d="M-34,0 L34,0 L34,14 L-34,14 L-34,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip9">
                 <path d="M-105.5,-83 L141.5,-83 L141.5,14 L-105.5,14 L-105.5,-83 z"/>
@@ -152,9 +143,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,113,92)">
-              <path d="M-7,0 L0,0 L0,12 L-7,12 L-7,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip10">
                 <path d="M-78,-72 L169,-72 L169,25 L-78,25 L-78,-72 z"/>
@@ -200,9 +188,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,162.5,50)">
-              <path d="M-15.7031,0 L15.7031,0 L15.7031,14 L-15.7031,14 L-15.7031,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip13">
                 <path d="M-118.797,-30 L128.203,-30 L128.203,67 L-118.797,67 L-118.797,-30 z"/>
@@ -215,9 +200,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,108,37)">
-              <path d="M-7,0 L0,0 L0,12 L-7,12 L-7,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip14">
                 <path d="M-73,-17 L174,-17 L174,80 L-73,80 L-73,-17 z"/>
@@ -263,9 +245,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="blk BlockName">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,40,77)">
-              <path d="M-3.5,0 L3.5,0 L3.5,14 L-3.5,14 L-3.5,0 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip17">
                 <path d="M-8.5,-57 L238.5,-57 L238.5,40 L-8.5,40 L-8.5,-57 z"/>
@@ -278,9 +257,6 @@
           </g>
           <!--RAWSTRING-->
           <g data-tags="portannotationpanel PortDataTypeString">
-            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,52,63)">
-              <path d="M0,-12 L7,-12 L7,0 L0,0 L0,-12 z" fill-rule="evenodd" vector-effect="none"/>
-            </g>
             <defs>
               <clipPath id="clip18">
                 <path d="M-24,-31 L223,-31 L223,66 L-24,66 L-24,-31 z"/>
@@ -360,5 +336,5 @@
       <!--RAWSTRING-->
     </g>
   </g>
-  <!--generated on windows @ 2018-09-14 16:13:30 Eastern Daylight Time-->
+  <!--generated on windows @ 2018-09-25 08:06:36 Eastern Daylight Time-->
 </svg>

@@ -96,6 +96,8 @@
    "params":[
     "Operator",
     "OutputSignalType",
+    "AlgorithmType",
+    "Iterations",
     "IntermediateResultsDataTypeStr",
     "OutDataTypeStr",
     "OutMin",
@@ -103,13 +105,13 @@
     "LockScale",
     "RndMeth",
     "SaturateOnIntegerOverflow",
-    "AlgorithmType",
-    "Iterations",
     "SampleTime"
    ],
    "values":[
     "sqrt",
     "auto",
+    "Exact",
+    "3",
     "Inherit: Inherit via internal rule",
     "Inherit: Same as first input",
     "[]",
@@ -117,19 +119,19 @@
     "off",
     "Floor",
     "on",
-    "Exact",
-    "3",
     "-1"
    ],
    "tabs":[
     "Main",
+    "Algorithm",
     "Data Types",
     "-Other"
    ],
    "tabs_idx":[
     0,
     2,
-    9
+    4,
+    11
    ]
   },
   "viewer":{
@@ -202,6 +204,8 @@
    "params":[
     "Operator",
     "OutputSignalType",
+    "AlgorithmType",
+    "Iterations",
     "IntermediateResultsDataTypeStr",
     "OutDataTypeStr",
     "OutMin",
@@ -209,13 +213,13 @@
     "LockScale",
     "RndMeth",
     "SaturateOnIntegerOverflow",
-    "AlgorithmType",
-    "Iterations",
     "SampleTime"
    ],
    "values":[
     "sqrt",
     "auto",
+    "Exact",
+    "3",
     "Inherit: Inherit via internal rule",
     "Inherit: Same as first input",
     "[]",
@@ -223,19 +227,19 @@
     "off",
     "Floor",
     "on",
-    "Exact",
-    "3",
     "-1"
    ],
    "tabs":[
     "Main",
+    "Algorithm",
     "Data Types",
     "-Other"
    ],
    "tabs_idx":[
     0,
     2,
-    9
+    4,
+    11
    ]
   },
   "viewer":{
@@ -257,40 +261,42 @@
   "parent":"THEOV:343:257:366",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "2",
+    "Element-wise(.*)",
+    "off",
+    "[]",
+    "[]",
     "Inherit: Inherit via internal rule",
+    "off",
+    "Floor",
+    "off",
     "1",
     "All dimensions",
-    "off",
-    "2",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "off"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{
@@ -312,40 +318,42 @@
   "parent":"THEOV:343:257:366",
   "inspector":{
    "params":[
+    "Inputs",
+    "Multiplication",
+    "InputSameDT",
+    "OutMin",
+    "OutMax",
     "OutDataTypeStr",
+    "LockScale",
+    "RndMeth",
+    "SaturateOnIntegerOverflow",
     "CollapseDim",
     "CollapseMode",
-    "InputSameDT",
-    "Inputs",
-    "LockScale",
-    "Multiplication",
-    "OutMax",
-    "OutMin",
-    "RndMeth",
-    "SampleTime",
-    "SaturateOnIntegerOverflow"
+    "SampleTime"
    ],
    "values":[
+    "*/",
+    "Element-wise(.*)",
+    "off",
+    "[]",
+    "[]",
     "Inherit: Inherit via internal rule",
+    "off",
+    "Floor",
+    "off",
     "1",
     "All dimensions",
-    "off",
-    "*/",
-    "off",
-    "Element-wise(.*)",
-    "[]",
-    "[]",
-    "Floor",
-    "-1",
-    "off"
+    "-1"
    ],
    "tabs":[
+    "Main",
     "Signal Attributes",
     "-Other"
    ],
    "tabs_idx":[
     0,
-    1
+    2,
+    9
    ]
   },
   "viewer":{

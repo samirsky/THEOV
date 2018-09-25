@@ -7,11 +7,17 @@
   "children":[
    2,
    3,
-   127,
+   131,
    132,
    133,
-   139,
-   140
+   134,
+   135,
+   140,
+   141,
+   142,
+   148,
+   149,
+   150
   ],
   "name":"THEOV",
   "fullname":"THEOV",
@@ -21,8 +27,9 @@
   "thumbnail":"support/slwebview_files/THEOV_d.png",
   "backingUrl":"support/slwebview_files/THEOV_d.json",
   "elements":[
-   ":252",
    ":298",
+   ":380",
+   ":252",
    ":238",
    ":237",
    ":236",
@@ -35,6 +42,12 @@
    ":1",
    ":310",
    ":331",
+   ":353",
+   ":356",
+   ":357",
+   ":358",
+   ":359",
+   ":360",
    ":155#out:2",
    ":122#out:2",
    ":162#out:2",
@@ -86,11 +99,12 @@
   "parent":1,
   "children":[
    4,
-   121,
-   122,
    124,
    125,
-   126
+   127,
+   128,
+   129,
+   130
   ],
   "name":"Airframe\n&\nAutopilot",
   "fullname":"THEOV/Airframe & Autopilot",
@@ -118,6 +132,7 @@
    ":4",
    ":3",
    ":352",
+   ":373",
    ":4#out:2",
    ":112#out:1",
    ":63#out:3",
@@ -130,14 +145,13 @@
    ":4#out:4",
    ":4#out:1",
    ":3#out:1",
-   ":64#out:1",
-   ":101#out:1",
    ":4#out:7",
    ":103#out:2",
    ":4#out:6",
    ":103#out:1",
    ":4#out:3",
-   ":352#out:1"
+   ":373#out:1",
+   ":64#out:1"
   ],
   "sameAsElement":true
  },
@@ -149,12 +163,12 @@
   "children":[
    5,
    8,
-   22,
    25,
-   34,
-   90,
-   98,
-   99
+   28,
+   37,
+   93,
+   101,
+   102
   ],
   "name":"Aerodynamics &\nEquations of Motion",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion",
@@ -193,10 +207,23 @@
    ":348",
    ":349",
    ":350",
+   ":354",
+   ":355",
+   ":361",
+   ":362",
+   ":363",
+   ":364",
+   ":365",
+   ":366",
+   ":367",
+   ":368",
+   ":369",
+   ":370",
+   ":371",
+   ":372",
+   ":374",
+   ":383",
    ":54#out:1",
-   ":5#out:1",
-   ":6#out:1",
-   ":54#out:2",
    ":265#out:1",
    ":261#out:2",
    ":271#out:1",
@@ -228,7 +255,18 @@
    ":350#out:1",
    ":55#out:1",
    ":350#out:2",
-   ":8#out:1"
+   ":8#out:1",
+   ":354#out:1",
+   ":361#out:1",
+   ":363#out:1",
+   ":364#out:1",
+   ":54#out:2",
+   ":367#out:1",
+   ":368#out:1",
+   ":370#out:1",
+   ":371#out:1",
+   ":374#out:1",
+   ":383#out:1"
   ],
   "sameAsElement":true
  },
@@ -249,6 +287,7 @@
   "thumbnail":"support/slwebview_files/THEOV_340_d.png",
   "backingUrl":"support/slwebview_files/THEOV_340_d.json",
   "elements":[
+   ":340:42",
    ":340:41",
    ":340:40",
    ":340:39",
@@ -367,7 +406,8 @@
    9,
    16,
    17,
-   21
+   21,
+   22
   ],
   "name":"Aerodynamic\nCoefficients",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Aerodynamic Coefficients",
@@ -390,18 +430,21 @@
    ":349:13",
    ":349:12",
    ":349:11",
+   ":349:511",
+   ":349:543",
    ":349:16#out:1",
    ":349:149#out:1",
    ":349:14#out:1",
    ":349:13#out:1",
    ":349:211#out:2",
    ":349:191#out:1",
-   ":349:212#out:1",
    ":349:11#out:1",
    ":349:148#out:1",
    ":349:12#out:1",
    ":349:15#out:1",
-   ":349:211#out:1"
+   ":349:211#out:1",
+   ":349:543#out:1",
+   ":349:511#out:1"
   ],
   "sameAsElement":true
  },
@@ -951,7 +994,6 @@
   "thumbnail":"support/slwebview_files/THEOV_349_173_d.png",
   "backingUrl":"support/slwebview_files/THEOV_349_173_d.json",
   "elements":[
-   ":349:180",
    ":349:179",
    ":349:178",
    ":349:177",
@@ -1061,12 +1103,129 @@
  },
  {
   "hid":22,
+  "sid":"THEOV:349:511",
+  "esid":"THEOV:349:511",
+  "parent":8,
+  "children":[
+   23,
+   24
+  ],
+  "name":"missile_coeff",
+  "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Aerodynamic Coefficients/missile_coeff",
+  "label":"missile_coeff",
+  "icon":"WebViewIcon2",
+  "svg":"support/slwebview_files/THEOV_349_511_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_349_511_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_349_511_d.json",
+  "elements":[
+   ":349:512",
+   ":349:513",
+   ":349:514",
+   ":349:528",
+   ":349:520",
+   ":349:519",
+   ":349:518",
+   ":349:517",
+   ":349:516",
+   ":349:542",
+   ":349:545",
+   ":349:546",
+   ":349:547",
+   ":349:548",
+   ":349:549",
+   ":349:528#out:2",
+   ":349:516#out:1",
+   ":349:528#out:3",
+   ":349:520#out:2",
+   ":349:520#out:1",
+   ":349:528#out:1",
+   ":349:520#out:3",
+   ":349:514#out:1",
+   ":349:513#out:1",
+   ":349:512#out:1",
+   ":349:542#out:1",
+   ":349:545#out:1",
+   ":349:547#out:1",
+   ":349:546#out:1",
+   ":349:518#out:1",
+   ":349:519#out:1",
+   ":349:517#out:1",
+   ":349:548#out:1"
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":23,
+  "sid":"THEOV:349:520",
+  "esid":"THEOV:349:520",
+  "parent":22,
+  "children":[
+  ],
+  "name":"Fins",
+  "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Aerodynamic Coefficients/missile_coeff/Fins",
+  "label":"Fins",
+  "icon":"WebViewIcon2",
+  "svg":"support/slwebview_files/THEOV_349_520_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_349_520_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_349_520_d.json",
+  "elements":[
+   ":349:527",
+   ":349:526",
+   ":349:525",
+   ":349:524",
+   ":349:523",
+   ":349:522",
+   ":349:521",
+   ":349:521#out:1",
+   ":349:523#out:1",
+   ":349:522#out:1",
+   ":349:524#out:1"
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":24,
+  "sid":"THEOV:349:528",
+  "esid":"THEOV:349:528",
+  "parent":22,
+  "children":[
+  ],
+  "name":"Incidence",
+  "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Aerodynamic Coefficients/missile_coeff/Incidence",
+  "label":"Incidence",
+  "icon":"WebViewIcon2",
+  "svg":"support/slwebview_files/THEOV_349_528_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_349_528_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_349_528_d.json",
+  "elements":[
+   ":349:538",
+   ":349:537",
+   ":349:536",
+   ":349:535",
+   ":349:534",
+   ":349:533",
+   ":349:532",
+   ":349:531",
+   ":349:530",
+   ":349:529",
+   ":349:531#out:1",
+   ":349:535#out:1",
+   ":349:533#out:1",
+   ":349:534#out:1",
+   ":349:532#out:1",
+   ":349:530#out:1",
+   ":349:529#out:1"
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":25,
   "sid":"THEOV:10",
   "esid":"THEOV:10",
   "parent":4,
   "children":[
-   23,
-   24
+   26,
+   27
   ],
   "name":"Aerodynamics",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Aerodynamics",
@@ -1132,10 +1291,10 @@
   "sameAsElement":true
  },
  {
-  "hid":23,
+  "hid":26,
   "sid":"THEOV:22",
   "esid":"THEOV:22",
-  "parent":22,
+  "parent":25,
   "children":[
   ],
   "name":"Fins",
@@ -1161,10 +1320,10 @@
   "sameAsElement":true
  },
  {
-  "hid":24,
+  "hid":27,
   "sid":"THEOV:30",
   "esid":"THEOV:30",
-  "parent":22,
+  "parent":25,
   "children":[
   ],
   "name":"Incidence",
@@ -1196,14 +1355,14 @@
   "sameAsElement":true
  },
  {
-  "hid":25,
+  "hid":28,
   "sid":"THEOV:348",
   "esid":"THEOV:348",
   "parent":4,
   "children":[
-   26,
-   28,
-   32
+   29,
+   31,
+   35
   ],
   "name":"Alpha,Beta,Mach",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Alpha,Beta,Mach",
@@ -1248,12 +1407,12 @@
   "sameAsElement":true
  },
  {
-  "hid":26,
+  "hid":29,
   "sid":"THEOV:348:223",
   "esid":"THEOV:348:223",
-  "parent":25,
+  "parent":28,
   "children":[
-   27
+   30
   ],
   "name":"Dynamic Pressure",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Alpha,Beta,Mach/Dynamic Pressure",
@@ -1278,10 +1437,10 @@
   "sameAsElement":true
  },
  {
-  "hid":27,
+  "hid":30,
   "sid":"THEOV:348:223:32",
   "esid":"THEOV:348:223:32",
-  "parent":26,
+  "parent":29,
   "children":[
   ],
   "name":"dot",
@@ -1311,14 +1470,14 @@
   "sameAsElement":true
  },
  {
-  "hid":28,
+  "hid":31,
   "sid":"THEOV:348:224",
   "esid":"THEOV:348:224",
-  "parent":25,
+  "parent":28,
   "children":[
-   29,
-   30,
-   31
+   32,
+   33,
+   34
   ],
   "name":"Incidence, Sideslip\n& Airspeed",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Alpha,Beta,Mach/Incidence, Sideslip & Airspeed",
@@ -1353,10 +1512,10 @@
   "sameAsElement":true
  },
  {
-  "hid":29,
+  "hid":32,
   "sid":"THEOV:348:224:59",
   "esid":"THEOV:348:224:59",
-  "parent":28,
+  "parent":31,
   "children":[
   ],
   "name":"Subsystem",
@@ -1380,10 +1539,10 @@
   "sameAsElement":true
  },
  {
-  "hid":30,
+  "hid":33,
   "sid":"THEOV:348:224:65",
   "esid":"THEOV:348:224:65",
-  "parent":28,
+  "parent":31,
   "children":[
   ],
   "name":"Subsystem1",
@@ -1407,10 +1566,10 @@
   "sameAsElement":true
  },
  {
-  "hid":31,
+  "hid":34,
   "sid":"THEOV:348:224:71",
   "esid":"THEOV:348:224:71",
-  "parent":28,
+  "parent":31,
   "children":[
   ],
   "name":"dot",
@@ -1440,12 +1599,12 @@
   "sameAsElement":true
  },
  {
-  "hid":32,
+  "hid":35,
   "sid":"THEOV:348:225",
   "esid":"THEOV:348:225",
-  "parent":25,
+  "parent":28,
   "children":[
-   33
+   36
   ],
   "name":"Mach Number",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Alpha,Beta,Mach/Mach Number",
@@ -1470,10 +1629,10 @@
   "sameAsElement":true
  },
  {
-  "hid":33,
+  "hid":36,
   "sid":"THEOV:348:225:85",
   "esid":"THEOV:348:225:85",
-  "parent":32,
+  "parent":35,
   "children":[
   ],
   "name":"dot",
@@ -1503,13 +1662,13 @@
   "sameAsElement":true
  },
  {
-  "hid":34,
+  "hid":37,
   "sid":"THEOV:343",
   "esid":"THEOV:343",
   "parent":4,
   "children":[
-   35,
-   41
+   38,
+   44
   ],
   "name":"Environment Models",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models",
@@ -1566,16 +1725,16 @@
   "sameAsElement":true
  },
  {
-  "hid":35,
+  "hid":38,
   "sid":"THEOV:343:238",
   "esid":"THEOV:343:238",
-  "parent":34,
+  "parent":37,
   "children":[
-   36,
-   37,
-   38,
    39,
-   40
+   40,
+   41,
+   42,
+   43
   ],
   "name":"COESA Atmosphere Model",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/COESA Atmosphere Model",
@@ -1611,10 +1770,10 @@
   "sameAsElement":true
  },
  {
-  "hid":36,
+  "hid":39,
   "sid":"THEOV:343:238:15",
   "esid":"THEOV:343:238:15",
-  "parent":35,
+  "parent":38,
   "children":[
   ],
   "name":"Density Conversion",
@@ -1634,10 +1793,10 @@
   "sameAsElement":true
  },
  {
-  "hid":37,
+  "hid":40,
   "sid":"THEOV:343:238:31",
   "esid":"THEOV:343:238:31",
-  "parent":35,
+  "parent":38,
   "children":[
   ],
   "name":"Length Conversion",
@@ -1657,10 +1816,10 @@
   "sameAsElement":true
  },
  {
-  "hid":38,
+  "hid":41,
   "sid":"THEOV:343:238:35",
   "esid":"THEOV:343:238:35",
-  "parent":35,
+  "parent":38,
   "children":[
   ],
   "name":"Pressure Conversion",
@@ -1680,10 +1839,10 @@
   "sameAsElement":true
  },
  {
-  "hid":39,
+  "hid":42,
   "sid":"THEOV:343:238:23",
   "esid":"THEOV:343:238:23",
-  "parent":35,
+  "parent":38,
   "children":[
   ],
   "name":"Temperature Conversion",
@@ -1703,10 +1862,10 @@
   "sameAsElement":true
  },
  {
-  "hid":40,
+  "hid":43,
   "sid":"THEOV:343:238:19",
   "esid":"THEOV:343:238:19",
-  "parent":35,
+  "parent":38,
   "children":[
   ],
   "name":"Velocity Conversion",
@@ -1726,14 +1885,14 @@
   "sameAsElement":true
  },
  {
-  "hid":41,
+  "hid":44,
   "sid":"THEOV:343:250",
   "esid":"THEOV:343:250",
-  "parent":34,
+  "parent":37,
   "children":[
-   42,
-   47,
-   87
+   45,
+   50,
+   90
   ],
   "name":"Wind Models",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models",
@@ -1770,15 +1929,15 @@
   "sameAsElement":true
  },
  {
-  "hid":42,
+  "hid":45,
   "sid":"THEOV:343:256",
   "esid":"THEOV:343:256",
-  "parent":41,
+  "parent":44,
   "children":[
-   43,
-   44,
-   45,
-   46
+   46,
+   47,
+   48,
+   49
   ],
   "name":"Discrete Wind Gust Model - On",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Discrete Wind Gust Model - On",
@@ -1834,10 +1993,10 @@
   "sameAsElement":true
  },
  {
-  "hid":43,
+  "hid":46,
   "sid":"THEOV:343:256:6",
   "esid":"THEOV:343:256:6",
-  "parent":42,
+  "parent":45,
   "children":[
   ],
   "name":"Distance into\ngust (x)",
@@ -1858,10 +2017,10 @@
   "sameAsElement":true
  },
  {
-  "hid":44,
+  "hid":47,
   "sid":"THEOV:343:256:11",
   "esid":"THEOV:343:256:11",
-  "parent":42,
+  "parent":45,
   "children":[
   ],
   "name":"Distance into\ngust (y)",
@@ -1882,10 +2041,10 @@
   "sameAsElement":true
  },
  {
-  "hid":45,
+  "hid":48,
   "sid":"THEOV:343:256:16",
   "esid":"THEOV:343:256:16",
-  "parent":42,
+  "parent":45,
   "children":[
   ],
   "name":"Distance into\ngust (z)",
@@ -1906,10 +2065,10 @@
   "sameAsElement":true
  },
  {
-  "hid":46,
+  "hid":49,
   "sid":"THEOV:343:256:34",
   "esid":"THEOV:343:256:34",
-  "parent":42,
+  "parent":45,
   "children":[
   ],
   "name":"Velocity Conversion",
@@ -1929,23 +2088,23 @@
   "sameAsElement":true
  },
  {
-  "hid":47,
+  "hid":50,
   "sid":"THEOV:343:257",
   "esid":"THEOV:343:257",
-  "parent":41,
+  "parent":44,
   "children":[
-   48,
-   49,
-   53,
-   57,
-   58,
-   59,
+   51,
+   52,
+   56,
+   60,
+   61,
    62,
-   71,
-   80,
-   84,
-   85,
-   86
+   65,
+   74,
+   83,
+   87,
+   88,
+   89
   ],
   "name":"Dryden Wind Turbulence Model \n(Continuous (+q -r))",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))",
@@ -2022,10 +2181,10 @@
   "sameAsElement":true
  },
  {
-  "hid":48,
+  "hid":51,
   "sid":"THEOV:343:257:327",
   "esid":"THEOV:343:257:327",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"Angle Conversion",
@@ -2045,14 +2204,14 @@
   "sameAsElement":true
  },
  {
-  "hid":49,
+  "hid":52,
   "sid":"THEOV:343:257:6",
   "esid":"THEOV:343:257:6",
-  "parent":47,
+  "parent":50,
   "children":[
-   50,
-   51,
-   52
+   53,
+   54,
+   55
   ],
   "name":"Filters on angular rates",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Filters on angular rates",
@@ -2095,10 +2254,10 @@
   "sameAsElement":true
  },
  {
-  "hid":50,
+  "hid":53,
   "sid":"THEOV:343:257:6:30",
   "esid":"THEOV:343:257:6:30",
-  "parent":49,
+  "parent":52,
   "children":[
   ],
   "name":"Hpgw",
@@ -2155,10 +2314,10 @@
   "sameAsElement":true
  },
  {
-  "hid":51,
+  "hid":54,
   "sid":"THEOV:343:257:6:31",
   "esid":"THEOV:343:257:6:31",
-  "parent":49,
+  "parent":52,
   "children":[
   ],
   "name":"Hqgw",
@@ -2191,10 +2350,10 @@
   "sameAsElement":true
  },
  {
-  "hid":52,
+  "hid":55,
   "sid":"THEOV:343:257:6:32",
   "esid":"THEOV:343:257:6:32",
-  "parent":49,
+  "parent":52,
   "children":[
   ],
   "name":"Hrgw",
@@ -2229,14 +2388,14 @@
   "sameAsElement":true
  },
  {
-  "hid":53,
+  "hid":56,
   "sid":"THEOV:343:257:361",
   "esid":"THEOV:343:257:361",
-  "parent":47,
+  "parent":50,
   "children":[
-   54,
-   55,
-   56
+   57,
+   58,
+   59
   ],
   "name":"Filters on velocities",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Filters on velocities",
@@ -2282,10 +2441,10 @@
   "sameAsElement":true
  },
  {
-  "hid":54,
+  "hid":57,
   "sid":"THEOV:343:257:361:16",
   "esid":"THEOV:343:257:361:16",
-  "parent":53,
+  "parent":56,
   "children":[
   ],
   "name":"Hugw(s)",
@@ -2326,10 +2485,10 @@
   "sameAsElement":true
  },
  {
-  "hid":55,
+  "hid":58,
   "sid":"THEOV:343:257:361:31",
   "esid":"THEOV:343:257:361:31",
-  "parent":53,
+  "parent":56,
   "children":[
   ],
   "name":"Hvgw(s)",
@@ -2380,10 +2539,10 @@
   "sameAsElement":true
  },
  {
-  "hid":56,
+  "hid":59,
   "sid":"THEOV:343:257:361:51",
   "esid":"THEOV:343:257:361:51",
-  "parent":53,
+  "parent":56,
   "children":[
   ],
   "name":"Hwgw(s)",
@@ -2436,10 +2595,10 @@
   "sameAsElement":true
  },
  {
-  "hid":57,
+  "hid":60,
   "sid":"THEOV:343:257:323",
   "esid":"THEOV:343:257:323",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"Length Conversion",
@@ -2459,10 +2618,10 @@
   "sameAsElement":true
  },
  {
-  "hid":58,
+  "hid":61,
   "sid":"THEOV:343:257:348",
   "esid":"THEOV:343:257:348",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"Length Conversion1",
@@ -2482,13 +2641,13 @@
   "sameAsElement":true
  },
  {
-  "hid":59,
+  "hid":62,
   "sid":"THEOV:343:257:12",
   "esid":"THEOV:343:257:12",
-  "parent":47,
+  "parent":50,
   "children":[
-   60,
-   61
+   63,
+   64
   ],
   "name":"RMS turbulence \nintensities",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/RMS turbulence  intensities",
@@ -2518,10 +2677,10 @@
   "sameAsElement":true
  },
  {
-  "hid":60,
+  "hid":63,
   "sid":"THEOV:343:257:15",
   "esid":"THEOV:343:257:15",
-  "parent":59,
+  "parent":62,
   "children":[
   ],
   "name":"High Altitude\nIntensity",
@@ -2549,10 +2708,10 @@
   "sameAsElement":true
  },
  {
-  "hid":61,
+  "hid":64,
   "sid":"THEOV:343:257:22",
   "esid":"THEOV:343:257:22",
-  "parent":59,
+  "parent":62,
   "children":[
   ],
   "name":"Low Altitude\nIntensity",
@@ -2581,15 +2740,15 @@
   "sameAsElement":true
  },
  {
-  "hid":62,
+  "hid":65,
   "sid":"THEOV:343:257:36",
   "esid":"THEOV:343:257:36",
-  "parent":47,
+  "parent":50,
   "children":[
-   63,
    66,
    69,
-   70
+   72,
+   73
   ],
   "name":"Select angular rates",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select angular rates",
@@ -2660,12 +2819,12 @@
   "sameAsElement":true
  },
  {
-  "hid":63,
+  "hid":66,
   "sid":"THEOV:343:257:52",
   "esid":"THEOV:343:257:52",
-  "parent":62,
+  "parent":65,
   "children":[
-   64
+   67
   ],
   "name":"Interpolate \nrates",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select angular rates/Interpolate  rates",
@@ -2725,12 +2884,12 @@
   "sameAsElement":true
  },
  {
-  "hid":64,
+  "hid":67,
   "sid":"THEOV:343:257:75",
   "esid":"THEOV:343:257:75",
-  "parent":63,
+  "parent":66,
   "children":[
-   65
+   68
   ],
   "name":"wind to body transformation",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select angular rates/Interpolate  rates/wind to body transformation",
@@ -2766,10 +2925,10 @@
   "sameAsElement":true
  },
  {
-  "hid":65,
+  "hid":68,
   "sid":"THEOV:343:257:84",
   "esid":"THEOV:343:257:84",
-  "parent":64,
+  "parent":67,
   "children":[
   ],
   "name":"convert to earth coords",
@@ -2817,12 +2976,12 @@
   "sameAsElement":true
  },
  {
-  "hid":66,
+  "hid":69,
   "sid":"THEOV:343:257:103",
   "esid":"THEOV:343:257:103",
-  "parent":62,
+  "parent":65,
   "children":[
-   67
+   70
   ],
   "name":"Low altitude \nrates",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select angular rates/Low altitude  rates",
@@ -2858,12 +3017,12 @@
   "sameAsElement":true
  },
  {
-  "hid":67,
+  "hid":70,
   "sid":"THEOV:343:257:114",
   "esid":"THEOV:343:257:114",
-  "parent":66,
+  "parent":69,
   "children":[
-   68
+   71
   ],
   "name":"wind to body transformation",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select angular rates/Low altitude  rates/wind to body transformation",
@@ -2899,10 +3058,10 @@
   "sameAsElement":true
  },
  {
-  "hid":68,
+  "hid":71,
   "sid":"THEOV:343:257:123",
   "esid":"THEOV:343:257:123",
-  "parent":67,
+  "parent":70,
   "children":[
   ],
   "name":"convert to earth coords",
@@ -2950,10 +3109,10 @@
   "sameAsElement":true
  },
  {
-  "hid":69,
+  "hid":72,
   "sid":"THEOV:343:257:142",
   "esid":"THEOV:343:257:142",
-  "parent":62,
+  "parent":65,
   "children":[
   ],
   "name":"Medium/High \naltitude rates",
@@ -2982,10 +3141,10 @@
   "sameAsElement":true
  },
  {
-  "hid":70,
+  "hid":73,
   "sid":"THEOV:343:257:151",
   "esid":"THEOV:343:257:151",
-  "parent":62,
+  "parent":65,
   "children":[
   ],
   "name":"Merge Subsystems",
@@ -3015,15 +3174,15 @@
   "sameAsElement":true
  },
  {
-  "hid":71,
+  "hid":74,
   "sid":"THEOV:343:257:164",
   "esid":"THEOV:343:257:164",
-  "parent":47,
+  "parent":50,
   "children":[
-   72,
    75,
    78,
-   79
+   81,
+   82
   ],
   "name":"Select velocities",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select velocities",
@@ -3094,12 +3253,12 @@
   "sameAsElement":true
  },
  {
-  "hid":72,
+  "hid":75,
   "sid":"THEOV:343:257:180",
   "esid":"THEOV:343:257:180",
-  "parent":71,
+  "parent":74,
   "children":[
-   73
+   76
   ],
   "name":"Interpolate \nvelocities",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select velocities/Interpolate  velocities",
@@ -3159,12 +3318,12 @@
   "sameAsElement":true
  },
  {
-  "hid":73,
+  "hid":76,
   "sid":"THEOV:343:257:203",
   "esid":"THEOV:343:257:203",
-  "parent":72,
+  "parent":75,
   "children":[
-   74
+   77
   ],
   "name":"wind to body transformation",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select velocities/Interpolate  velocities/wind to body transformation",
@@ -3200,10 +3359,10 @@
   "sameAsElement":true
  },
  {
-  "hid":74,
+  "hid":77,
   "sid":"THEOV:343:257:212",
   "esid":"THEOV:343:257:212",
-  "parent":73,
+  "parent":76,
   "children":[
   ],
   "name":"convert to earth coords",
@@ -3251,12 +3410,12 @@
   "sameAsElement":true
  },
  {
-  "hid":75,
+  "hid":78,
   "sid":"THEOV:343:257:231",
   "esid":"THEOV:343:257:231",
-  "parent":71,
+  "parent":74,
   "children":[
-   76
+   79
   ],
   "name":"Low altitude \nvelocities",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select velocities/Low altitude  velocities",
@@ -3292,12 +3451,12 @@
   "sameAsElement":true
  },
  {
-  "hid":76,
+  "hid":79,
   "sid":"THEOV:343:257:242",
   "esid":"THEOV:343:257:242",
-  "parent":75,
+  "parent":78,
   "children":[
-   77
+   80
   ],
   "name":"wind to body transformation",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Select velocities/Low altitude  velocities/wind to body transformation",
@@ -3333,10 +3492,10 @@
   "sameAsElement":true
  },
  {
-  "hid":77,
+  "hid":80,
   "sid":"THEOV:343:257:251",
   "esid":"THEOV:343:257:251",
-  "parent":76,
+  "parent":79,
   "children":[
   ],
   "name":"convert to earth coords",
@@ -3384,10 +3543,10 @@
   "sameAsElement":true
  },
  {
-  "hid":78,
+  "hid":81,
   "sid":"THEOV:343:257:270",
   "esid":"THEOV:343:257:270",
-  "parent":71,
+  "parent":74,
   "children":[
   ],
   "name":"Medium/High \naltitude velocities",
@@ -3416,10 +3575,10 @@
   "sameAsElement":true
  },
  {
-  "hid":79,
+  "hid":82,
   "sid":"THEOV:343:257:279",
   "esid":"THEOV:343:257:279",
-  "parent":71,
+  "parent":74,
   "children":[
   ],
   "name":"Merge Subsystems",
@@ -3449,13 +3608,13 @@
   "sameAsElement":true
  },
  {
-  "hid":80,
+  "hid":83,
   "sid":"THEOV:343:257:292",
   "esid":"THEOV:343:257:292",
-  "parent":47,
+  "parent":50,
   "children":[
-   81,
-   82
+   84,
+   85
   ],
   "name":"Turbulence scale lengths",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Turbulence scale lengths",
@@ -3487,10 +3646,10 @@
   "sameAsElement":true
  },
  {
-  "hid":81,
+  "hid":84,
   "sid":"THEOV:343:257:294",
   "esid":"THEOV:343:257:294",
-  "parent":80,
+  "parent":83,
   "children":[
   ],
   "name":"Low altitude\nscale length",
@@ -3513,12 +3672,12 @@
   "sameAsElement":true
  },
  {
-  "hid":82,
+  "hid":85,
   "sid":"THEOV:343:257:302",
   "esid":"THEOV:343:257:302",
-  "parent":80,
+  "parent":83,
   "children":[
-   83
+   86
   ],
   "name":"Medium/High altitude\nscale length",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Dryden Wind Turbulence Model  (Continuous (+q -r))/Turbulence scale lengths/Medium//High altitude scale length",
@@ -3537,10 +3696,10 @@
   "sameAsElement":true
  },
  {
-  "hid":83,
+  "hid":86,
   "sid":"THEOV:343:257:344",
   "esid":"THEOV:343:257:344",
-  "parent":82,
+  "parent":85,
   "children":[
   ],
   "name":"Length Conversion",
@@ -3560,10 +3719,10 @@
   "sameAsElement":true
  },
  {
-  "hid":84,
+  "hid":87,
   "sid":"THEOV:343:257:340",
   "esid":"THEOV:343:257:340",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"Velocity Conversion",
@@ -3583,10 +3742,10 @@
   "sameAsElement":true
  },
  {
-  "hid":85,
+  "hid":88,
   "sid":"THEOV:343:257:331",
   "esid":"THEOV:343:257:331",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"Velocity Conversion2",
@@ -3606,10 +3765,10 @@
   "sameAsElement":true
  },
  {
-  "hid":86,
+  "hid":89,
   "sid":"THEOV:343:257:366",
   "esid":"THEOV:343:257:366",
-  "parent":47,
+  "parent":50,
   "children":[
   ],
   "name":"White Noise",
@@ -3639,13 +3798,13 @@
   "sameAsElement":true
  },
  {
-  "hid":87,
+  "hid":90,
   "sid":"THEOV:343:261",
   "esid":"THEOV:343:261",
-  "parent":41,
+  "parent":44,
   "children":[
-   88,
-   89
+   91,
+   92
   ],
   "name":"Wind Shear Model",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Environment Models/Wind Models/Wind Shear Model",
@@ -3700,10 +3859,10 @@
   "sameAsElement":true
  },
  {
-  "hid":88,
+  "hid":91,
   "sid":"THEOV:343:261:23",
   "esid":"THEOV:343:261:23",
-  "parent":87,
+  "parent":90,
   "children":[
   ],
   "name":"Angle Conversion",
@@ -3723,10 +3882,10 @@
   "sameAsElement":true
  },
  {
-  "hid":89,
+  "hid":92,
   "sid":"THEOV:343:261:27",
   "esid":"THEOV:343:261:27",
-  "parent":87,
+  "parent":90,
   "children":[
   ],
   "name":"Length Conversion",
@@ -3746,12 +3905,12 @@
   "sameAsElement":true
  },
  {
-  "hid":90,
+  "hid":93,
   "sid":"THEOV:350",
   "esid":"THEOV:350",
   "parent":4,
   "children":[
-   91
+   94
   ],
   "name":"Forces and Moments",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Forces and Moments",
@@ -3782,15 +3941,15 @@
   "sameAsElement":true
  },
  {
-  "hid":91,
+  "hid":94,
   "sid":"THEOV:350:275",
   "esid":"THEOV:350:275",
-  "parent":90,
+  "parent":93,
   "children":[
-   92,
    95,
-   96,
-   97
+   98,
+   99,
+   100
   ],
   "name":"Aerodynamic\nForces and Moments",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Forces and Moments/Aerodynamic Forces and Moments",
@@ -3854,13 +4013,13 @@
   "sameAsElement":true
  },
  {
-  "hid":92,
+  "hid":95,
   "sid":"THEOV:350:275:5",
   "esid":"THEOV:350:275:5",
-  "parent":91,
+  "parent":94,
   "children":[
-   93,
-   94
+   96,
+   97
   ],
   "name":"3x3 Cross Product",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Forces and Moments/Aerodynamic Forces and Moments/3x3 Cross Product",
@@ -3889,10 +4048,10 @@
   "sameAsElement":true
  },
  {
-  "hid":93,
+  "hid":96,
   "sid":"THEOV:350:275:5:35",
   "esid":"THEOV:350:275:5:35",
-  "parent":92,
+  "parent":95,
   "children":[
   ],
   "name":"Subsystem",
@@ -3928,10 +4087,10 @@
   "sameAsElement":true
  },
  {
-  "hid":94,
+  "hid":97,
   "sid":"THEOV:350:275:5:45",
   "esid":"THEOV:350:275:5:45",
-  "parent":92,
+  "parent":95,
   "children":[
   ],
   "name":"Subsystem1",
@@ -3967,10 +4126,10 @@
   "sameAsElement":true
  },
  {
-  "hid":95,
+  "hid":98,
   "sid":"THEOV:350:275:6",
   "esid":"THEOV:350:275:6",
-  "parent":91,
+  "parent":94,
   "children":[
   ],
   "name":"CG-CP Transformation",
@@ -3991,10 +4150,10 @@
   "sameAsElement":true
  },
  {
-  "hid":96,
+  "hid":99,
   "sid":"THEOV:350:275:8",
   "esid":"THEOV:350:275:8",
-  "parent":91,
+  "parent":94,
   "children":[
   ],
   "name":"Force Transformation",
@@ -4015,10 +4174,10 @@
   "sameAsElement":true
  },
  {
-  "hid":97,
+  "hid":100,
   "sid":"THEOV:350:275:13",
   "esid":"THEOV:350:275:13",
-  "parent":91,
+  "parent":94,
   "children":[
   ],
   "name":"Moment Transformation",
@@ -4039,7 +4198,7 @@
   "sameAsElement":true
  },
  {
-  "hid":98,
+  "hid":101,
   "sid":"THEOV:54",
   "esid":"THEOV:54",
   "parent":4,
@@ -4065,19 +4224,19 @@
   "sameAsElement":true
  },
  {
-  "hid":99,
+  "hid":102,
   "sid":"THEOV:261",
   "esid":"THEOV:261",
   "parent":4,
   "children":[
-   100,
-   104,
-   110,
-   114,
+   103,
+   107,
+   113,
    117,
-   118,
-   119,
-   120
+   120,
+   121,
+   122,
+   123
   ],
   "name":"Simple Variable Mass 6DOF (Euler Angles)",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)",
@@ -4148,13 +4307,13 @@
   "sameAsElement":true
  },
  {
-  "hid":100,
+  "hid":103,
   "sid":"THEOV:261:89",
   "esid":"THEOV:261:89",
-  "parent":99,
+  "parent":102,
   "children":[
-   101,
-   103
+   104,
+   106
   ],
   "name":"Calculate DCM &\nEuler Angles",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate DCM & Euler Angles",
@@ -4164,154 +4323,154 @@
   "thumbnail":"support/slwebview_files/THEOV_261_89_d.png",
   "backingUrl":"support/slwebview_files/THEOV_261_89_d.json",
   "elements":[
-   ":261:89:44",
-   ":261:89:43",
-   ":261:89:33",
-   ":261:89:32",
-   ":261:89:31",
-   ":261:89:29",
-   ":261:89:345",
-   ":261:89:31#out:1",
-   ":261:89:32#out:1",
-   ":261:89:33#out:1",
-   ":261:89:29#out:1",
-   ":261:89:345#out:1"
+   ":261:89:371",
+   ":261:89:370",
+   ":261:89:360",
+   ":261:89:359",
+   ":261:89:358",
+   ":261:89:356",
+   ":261:89:357",
+   ":261:89:358#out:1",
+   ":261:89:359#out:1",
+   ":261:89:360#out:1",
+   ":261:89:356#out:1",
+   ":261:89:357#out:1"
   ],
   "sameAsElement":true
  },
  {
-  "hid":101,
-  "sid":"THEOV:261:89:345",
-  "esid":"THEOV:261:89:345",
-  "parent":100,
+  "hid":104,
+  "sid":"THEOV:261:89:357",
+  "esid":"THEOV:261:89:357",
+  "parent":103,
   "children":[
-   102
+   105
   ],
   "name":"Rotation Angles to\nDirection Cosine Matrix",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate DCM & Euler Angles/Rotation Angles to Direction Cosine Matrix",
   "label":"Rotation Angles to Direction Cosine Matrix",
   "icon":"WebViewIcon3",
-  "svg":"support/slwebview_files/THEOV_261_89_345_d.svg",
-  "thumbnail":"support/slwebview_files/THEOV_261_89_345_d.png",
-  "backingUrl":"support/slwebview_files/THEOV_261_89_345_d.json",
+  "svg":"support/slwebview_files/THEOV_261_89_357_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_261_89_357_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_261_89_357_d.json",
   "elements":[
-   ":261:89:345:14",
-   ":261:89:345:13",
-   ":261:89:345:12",
-   ":261:89:345:11",
-   ":261:89:345:10",
-   ":261:89:345:9",
-   ":261:89:345:8",
-   ":261:89:345:7",
-   ":261:89:345:6",
-   ":261:89:345:5",
-   ":261:89:345:4",
-   ":261:89:345:3",
-   ":261:89:345:1",
-   ":261:89:345:57",
-   ":261:89:345:1#out:1",
-   ":261:89:345:57#out:1",
-   ":261:89:345:13#out:1",
-   ":261:89:345:13#out:2",
-   ":261:89:345:12#out:1",
-   ":261:89:345:3#out:1",
-   ":261:89:345:4#out:1",
-   ":261:89:345:5#out:1",
-   ":261:89:345:6#out:1",
-   ":261:89:345:9#out:1",
-   ":261:89:345:7#out:1",
-   ":261:89:345:8#out:1",
-   ":261:89:345:10#out:1",
-   ":261:89:345:11#out:1"
+   ":261:89:357:14",
+   ":261:89:357:13",
+   ":261:89:357:12",
+   ":261:89:357:11",
+   ":261:89:357:10",
+   ":261:89:357:9",
+   ":261:89:357:8",
+   ":261:89:357:7",
+   ":261:89:357:6",
+   ":261:89:357:5",
+   ":261:89:357:4",
+   ":261:89:357:3",
+   ":261:89:357:1",
+   ":261:89:357:57",
+   ":261:89:357:1#out:1",
+   ":261:89:357:57#out:1",
+   ":261:89:357:13#out:1",
+   ":261:89:357:13#out:2",
+   ":261:89:357:12#out:1",
+   ":261:89:357:3#out:1",
+   ":261:89:357:4#out:1",
+   ":261:89:357:5#out:1",
+   ":261:89:357:6#out:1",
+   ":261:89:357:9#out:1",
+   ":261:89:357:7#out:1",
+   ":261:89:357:8#out:1",
+   ":261:89:357:10#out:1",
+   ":261:89:357:11#out:1"
   ],
   "sameAsElement":true
  },
  {
-  "hid":102,
-  "sid":"THEOV:261:89:345:57",
-  "esid":"THEOV:261:89:345:57",
-  "parent":101,
+  "hid":105,
+  "sid":"THEOV:261:89:357:57",
+  "esid":"THEOV:261:89:357:57",
+  "parent":104,
   "children":[
   ],
   "name":"Create 3x3 Matrix",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate DCM & Euler Angles/Rotation Angles to Direction Cosine Matrix/Create 3x3 Matrix",
   "label":"Create 3x3 Matrix",
   "icon":"WebViewIcon3",
-  "svg":"support/slwebview_files/THEOV_261_89_345_57_d.svg",
-  "thumbnail":"support/slwebview_files/THEOV_261_89_345_57_d.png",
-  "backingUrl":"support/slwebview_files/THEOV_261_89_345_57_d.json",
+  "svg":"support/slwebview_files/THEOV_261_89_357_57_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_261_89_357_57_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_261_89_357_57_d.json",
   "elements":[
-   ":261:89:345:57:30",
-   ":261:89:345:57:29",
-   ":261:89:345:57:28",
-   ":261:89:345:57:27",
-   ":261:89:345:57:26",
-   ":261:89:345:57:25",
-   ":261:89:345:57:24",
-   ":261:89:345:57:23",
-   ":261:89:345:57:22",
-   ":261:89:345:57:21",
-   ":261:89:345:57:20",
-   ":261:89:345:57:19",
-   ":261:89:345:57:27#out:1",
-   ":261:89:345:57:24#out:1",
-   ":261:89:345:57:21#out:1",
-   ":261:89:345:57:26#out:1",
-   ":261:89:345:57:28#out:1",
-   ":261:89:345:57:23#out:1",
-   ":261:89:345:57:20#out:1",
-   ":261:89:345:57:25#out:1",
-   ":261:89:345:57:22#out:1",
-   ":261:89:345:57:19#out:1",
-   ":261:89:345:57:29#out:1"
+   ":261:89:357:57:30",
+   ":261:89:357:57:29",
+   ":261:89:357:57:28",
+   ":261:89:357:57:27",
+   ":261:89:357:57:26",
+   ":261:89:357:57:25",
+   ":261:89:357:57:24",
+   ":261:89:357:57:23",
+   ":261:89:357:57:22",
+   ":261:89:357:57:21",
+   ":261:89:357:57:20",
+   ":261:89:357:57:19",
+   ":261:89:357:57:27#out:1",
+   ":261:89:357:57:24#out:1",
+   ":261:89:357:57:21#out:1",
+   ":261:89:357:57:26#out:1",
+   ":261:89:357:57:28#out:1",
+   ":261:89:357:57:23#out:1",
+   ":261:89:357:57:20#out:1",
+   ":261:89:357:57:25#out:1",
+   ":261:89:357:57:22#out:1",
+   ":261:89:357:57:19#out:1",
+   ":261:89:357:57:29#out:1"
   ],
   "sameAsElement":true
  },
  {
-  "hid":103,
-  "sid":"THEOV:261:89:33",
-  "esid":"THEOV:261:89:33",
-  "parent":100,
+  "hid":106,
+  "sid":"THEOV:261:89:360",
+  "esid":"THEOV:261:89:360",
+  "parent":103,
   "children":[
   ],
   "name":"phidot\nthetadot\npsidot",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate DCM & Euler Angles/phidot thetadot psidot",
   "label":"phidot thetadot psidot",
   "icon":"WebViewIcon2",
-  "svg":"support/slwebview_files/THEOV_261_89_33_d.svg",
-  "thumbnail":"support/slwebview_files/THEOV_261_89_33_d.png",
-  "backingUrl":"support/slwebview_files/THEOV_261_89_33_d.json",
+  "svg":"support/slwebview_files/THEOV_261_89_360_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_261_89_360_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_261_89_360_d.json",
   "elements":[
-   ":261:89:42",
-   ":261:89:41",
-   ":261:89:40",
-   ":261:89:39",
-   ":261:89:38",
-   ":261:89:37",
-   ":261:89:36",
-   ":261:89:35",
-   ":261:89:34",
-   ":261:89:36#out:1",
-   ":261:89:34#out:1",
-   ":261:89:35#out:1",
-   ":261:89:39#out:1",
-   ":261:89:41#out:1",
-   ":261:89:38#out:1",
-   ":261:89:37#out:1",
-   ":261:89:40#out:1",
-   ":261:89:40#out:2"
+   ":261:89:369",
+   ":261:89:368",
+   ":261:89:367",
+   ":261:89:366",
+   ":261:89:365",
+   ":261:89:364",
+   ":261:89:363",
+   ":261:89:362",
+   ":261:89:361",
+   ":261:89:363#out:1",
+   ":261:89:361#out:1",
+   ":261:89:362#out:1",
+   ":261:89:366#out:1",
+   ":261:89:368#out:1",
+   ":261:89:365#out:1",
+   ":261:89:364#out:1",
+   ":261:89:367#out:1",
+   ":261:89:367#out:2"
   ],
   "sameAsElement":true
  },
  {
-  "hid":104,
+  "hid":107,
   "sid":"THEOV:261:90",
   "esid":"THEOV:261:90",
-  "parent":99,
+  "parent":102,
   "children":[
-   105,
    108,
-   109
+   111,
+   112
   ],
   "name":"Calculate omega_dot",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate omega_dot",
@@ -4352,13 +4511,13 @@
   "sameAsElement":true
  },
  {
-  "hid":105,
+  "hid":108,
   "sid":"THEOV:261:90:350",
   "esid":"THEOV:261:90:350",
-  "parent":104,
+  "parent":107,
   "children":[
-   106,
-   107
+   109,
+   110
   ],
   "name":"3x3 Cross Product",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Calculate omega_dot/3x3 Cross Product",
@@ -4387,10 +4546,10 @@
   "sameAsElement":true
  },
  {
-  "hid":106,
+  "hid":109,
   "sid":"THEOV:261:90:350:35",
   "esid":"THEOV:261:90:350:35",
-  "parent":105,
+  "parent":108,
   "children":[
   ],
   "name":"Subsystem",
@@ -4426,10 +4585,10 @@
   "sameAsElement":true
  },
  {
-  "hid":107,
+  "hid":110,
   "sid":"THEOV:261:90:350:45",
   "esid":"THEOV:261:90:350:45",
-  "parent":105,
+  "parent":108,
   "children":[
   ],
   "name":"Subsystem1",
@@ -4465,10 +4624,10 @@
   "sameAsElement":true
  },
  {
-  "hid":108,
+  "hid":111,
   "sid":"THEOV:261:90:5",
   "esid":"THEOV:261:90:5",
-  "parent":104,
+  "parent":107,
   "children":[
   ],
   "name":"I x w",
@@ -4494,10 +4653,10 @@
   "sameAsElement":true
  },
  {
-  "hid":109,
+  "hid":112,
   "sid":"THEOV:261:90:12",
   "esid":"THEOV:261:90:12",
-  "parent":104,
+  "parent":107,
   "children":[
   ],
   "name":"I x w1",
@@ -4523,12 +4682,12 @@
   "sameAsElement":true
  },
  {
-  "hid":110,
+  "hid":113,
   "sid":"THEOV:261:93",
   "esid":"THEOV:261:93",
-  "parent":99,
+  "parent":102,
   "children":[
-   111
+   114
   ],
   "name":"Determine Force, \nMass & Inertia",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Determine Force,  Mass & Inertia",
@@ -4577,12 +4736,12 @@
   "sameAsElement":true
  },
  {
-  "hid":111,
+  "hid":114,
   "sid":"THEOV:261:93:116",
   "esid":"THEOV:261:93:116",
-  "parent":110,
+  "parent":113,
   "children":[
-   112
+   115
   ],
   "name":"Estimate\nInertia Tensor",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Determine Force,  Mass & Inertia/Estimate Inertia Tensor",
@@ -4617,12 +4776,12 @@
   "sameAsElement":true
  },
  {
-  "hid":112,
+  "hid":115,
   "sid":"THEOV:261:93:116:37",
   "esid":"THEOV:261:93:116:37",
-  "parent":111,
+  "parent":114,
   "children":[
-   113
+   116
   ],
   "name":"Interpolate\nInertia ",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Determine Force,  Mass & Inertia/Estimate Inertia Tensor/Interpolate Inertia ",
@@ -4643,10 +4802,10 @@
   "sameAsElement":true
  },
  {
-  "hid":113,
+  "hid":116,
   "sid":"THEOV:261:93:116:37:3",
   "esid":"THEOV:261:93:116:37:3",
-  "parent":112,
+  "parent":115,
   "children":[
   ],
   "name":"Matrix interpolation",
@@ -4682,13 +4841,13 @@
   "sameAsElement":true
  },
  {
-  "hid":114,
+  "hid":117,
   "sid":"THEOV:261:87",
   "esid":"THEOV:261:87",
-  "parent":99,
+  "parent":102,
   "children":[
-   115,
-   116
+   118,
+   119
   ],
   "name":"Vbxw",
   "fullname":"THEOV/Airframe & Autopilot/Aerodynamics & Equations of Motion/Simple Variable Mass 6DOF (Euler Angles)/Vbxw",
@@ -4717,10 +4876,10 @@
   "sameAsElement":true
  },
  {
-  "hid":115,
+  "hid":118,
   "sid":"THEOV:261:87:35",
   "esid":"THEOV:261:87:35",
-  "parent":114,
+  "parent":117,
   "children":[
   ],
   "name":"Subsystem",
@@ -4756,10 +4915,10 @@
   "sameAsElement":true
  },
  {
-  "hid":116,
+  "hid":119,
   "sid":"THEOV:261:87:45",
   "esid":"THEOV:261:87:45",
-  "parent":114,
+  "parent":117,
   "children":[
   ],
   "name":"Subsystem1",
@@ -4795,10 +4954,10 @@
   "sameAsElement":true
  },
  {
-  "hid":117,
+  "hid":120,
   "sid":"THEOV:261:57",
   "esid":"THEOV:261:57",
-  "parent":99,
+  "parent":102,
   "children":[
   ],
   "name":"Velocity Conversion",
@@ -4818,10 +4977,10 @@
   "sameAsElement":true
  },
  {
-  "hid":118,
+  "hid":121,
   "sid":"THEOV:261:61",
   "esid":"THEOV:261:61",
-  "parent":99,
+  "parent":102,
   "children":[
   ],
   "name":"Velocity Conversion1",
@@ -4841,10 +5000,10 @@
   "sameAsElement":true
  },
  {
-  "hid":119,
+  "hid":122,
   "sid":"THEOV:261:65",
   "esid":"THEOV:261:65",
-  "parent":99,
+  "parent":102,
   "children":[
   ],
   "name":"Velocity Conversion2",
@@ -4864,10 +5023,10 @@
   "sameAsElement":true
  },
  {
-  "hid":120,
+  "hid":123,
   "sid":"THEOV:261:18",
   "esid":"THEOV:261:18",
-  "parent":99,
+  "parent":102,
   "children":[
   ],
   "name":"transform to\nInertial axes ",
@@ -4893,7 +5052,7 @@
   "sameAsElement":true
  },
  {
-  "hid":121,
+  "hid":124,
   "sid":"THEOV:63",
   "esid":"THEOV:63",
   "parent":3,
@@ -4955,12 +5114,12 @@
   "sameAsElement":true
  },
  {
-  "hid":122,
+  "hid":125,
   "sid":"THEOV:64",
   "esid":"THEOV:64",
   "parent":3,
   "children":[
-   123
+   126
   ],
   "name":"Autopilot",
   "fullname":"THEOV/Airframe & Autopilot/Autopilot",
@@ -5018,10 +5177,10 @@
   "sameAsElement":true
  },
  {
-  "hid":123,
+  "hid":126,
   "sid":"THEOV:72",
   "esid":"THEOV:72",
-  "parent":122,
+  "parent":125,
   "children":[
   ],
   "name":"Gain\n Scheduled\nCoefficients",
@@ -5058,7 +5217,7 @@
   "sameAsElement":true
  },
  {
-  "hid":124,
+  "hid":127,
   "sid":"THEOV:101",
   "esid":"THEOV:101",
   "parent":3,
@@ -5096,7 +5255,45 @@
   "sameAsElement":true
  },
  {
-  "hid":125,
+  "hid":128,
+  "sid":"THEOV:373",
+  "esid":"THEOV:373",
+  "parent":3,
+  "children":[
+  ],
+  "name":"Fin Actuator1",
+  "fullname":"THEOV/Airframe & Autopilot/Fin Actuator1",
+  "label":"Fin Actuator1",
+  "icon":"WebViewIcon3",
+  "svg":"support/slwebview_files/THEOV_373_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_373_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_373_d.json",
+  "elements":[
+   ":373:154",
+   ":373:153",
+   ":373:152",
+   ":373:151",
+   ":373:150",
+   ":373:149",
+   ":373:148",
+   ":373:147",
+   ":373:146",
+   ":373:145",
+   ":373:144",
+   ":373:147#out:1",
+   ":373:152#out:1",
+   ":373:149#out:1",
+   ":373:148#out:1",
+   ":373:145#out:1",
+   ":373:150#out:1",
+   ":373:151#out:1",
+   ":373:146#out:1",
+   ":373:144#out:1"
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":129,
   "sid":"THEOV:352",
   "esid":"THEOV:352",
   "parent":3,
@@ -5132,7 +5329,7 @@
   "sameAsElement":true
  },
  {
-  "hid":126,
+  "hid":130,
   "sid":"THEOV:103",
   "esid":"THEOV:103",
   "parent":3,
@@ -5164,13 +5361,85 @@
   "sameAsElement":true
  },
  {
-  "hid":127,
+  "hid":131,
+  "sid":"THEOV:356",
+  "esid":"THEOV:356",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Airspeed Indicator",
+  "fullname":"THEOV/Airspeed Indicator",
+  "label":"Airspeed Indicator",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_356_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_356_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_356_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":132,
+  "sid":"THEOV:357",
+  "esid":"THEOV:357",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Altimeter",
+  "fullname":"THEOV/Altimeter",
+  "label":"Altimeter",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_357_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_357_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_357_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":133,
+  "sid":"THEOV:353",
+  "esid":"THEOV:353",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Artificial Horizon",
+  "fullname":"THEOV/Artificial Horizon",
+  "label":"Artificial Horizon",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_353_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_353_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_353_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":134,
+  "sid":"THEOV:360",
+  "esid":"THEOV:360",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Climb Rate Indicator",
+  "fullname":"THEOV/Climb Rate Indicator",
+  "label":"Climb Rate Indicator",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_360_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_360_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_360_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":135,
   "sid":"THEOV:122",
   "esid":"THEOV:122",
   "parent":1,
   "children":[
-   128,
-   131
+   136,
+   139
   ],
   "name":"Guidance",
   "fullname":"THEOV/Guidance",
@@ -5209,9 +5478,7 @@
    ":146#out:5",
    ":126#out:1",
    ":123#out:1",
-   ":149#out:1",
    ":124#out:1",
-   ":128#out:1",
    ":125#out:1",
    ":146#out:2",
    ":146#out:4",
@@ -5219,18 +5486,20 @@
    ":255#out:1",
    ":256#out:1",
    ":332#out:1",
-   ":129#out:2"
+   ":129#out:2",
+   ":128#out:1",
+   ":149#out:1"
   ],
   "sameAsElement":true
  },
  {
-  "hid":128,
+  "hid":136,
   "sid":"THEOV:129",
   "esid":"THEOV:129",
-  "parent":127,
+  "parent":135,
   "children":[
-   129,
-   130
+   137,
+   138
   ],
   "name":"Fuze",
   "fullname":"THEOV/Guidance/Fuze",
@@ -5268,10 +5537,10 @@
   "sameAsElement":true
  },
  {
-  "hid":129,
+  "hid":137,
   "sid":"THEOV:258",
   "esid":"THEOV:258",
-  "parent":128,
+  "parent":136,
   "children":[
   ],
   "name":"Closest Approach",
@@ -5293,10 +5562,10 @@
   "sameAsElement":true
  },
  {
-  "hid":130,
+  "hid":138,
   "sid":"THEOV:138",
   "esid":"THEOV:138",
-  "parent":128,
+  "parent":136,
   "children":[
   ],
   "name":"Miss distance",
@@ -5315,10 +5584,10 @@
   "sameAsElement":true
  },
  {
-  "hid":131,
+  "hid":139,
   "sid":"THEOV:146",
   "esid":"THEOV:146",
-  "parent":127,
+  "parent":135,
   "children":[
   ],
   "name":"Guidance Processor\n(Updated @100Hz)",
@@ -5330,30 +5599,48 @@
   "backingUrl":"support/slwebview_files/THEOV_146_d.json",
   "elements":[
    ":146:7",
-   ":146:8",
    ":146:9",
+   ":146:8",
    ":146:19",
-   ":146:17",
-   ":146:18",
    ":146:20",
+   ":146:18",
+   ":146:17",
    ":146:1",
    ":146:6",
    ":146:5",
-   ":146:4",
+   ":146:3",
    ":146:2",
    ":146:12",
-   ":146:3",
-   ":146:16",
-   ":146:11",
-   ":146:10",
+   ":146:4",
    ":146:15",
    ":146:14",
-   ":146:13"
+   ":146:13",
+   ":146:16",
+   ":146:11",
+   ":146:10"
   ],
   "sameAsElement":false
  },
  {
-  "hid":132,
+  "hid":140,
+  "sid":"THEOV:359",
+  "esid":"THEOV:359",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Heading Indicator",
+  "fullname":"THEOV/Heading Indicator",
+  "label":"Heading Indicator",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_359_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_359_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_359_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":141,
   "sid":"THEOV:161",
   "esid":"THEOV:161",
   "parent":1,
@@ -5371,14 +5658,14 @@
   "sameAsElement":true
  },
  {
-  "hid":133,
+  "hid":142,
   "sid":"THEOV:162",
   "esid":"THEOV:162",
   "parent":1,
   "children":[
-   134,
-   135,
-   136
+   143,
+   144,
+   145
   ],
   "name":"Seeker/Tracker",
   "fullname":"THEOV/Seeker//Tracker",
@@ -5414,10 +5701,10 @@
   "sameAsElement":true
  },
  {
-  "hid":134,
+  "hid":143,
   "sid":"THEOV:169",
   "esid":"THEOV:169",
-  "parent":133,
+  "parent":142,
   "children":[
   ],
   "name":"Range and \nClosing Velocity Estimates",
@@ -5445,10 +5732,10 @@
   "sameAsElement":true
  },
  {
-  "hid":135,
+  "hid":144,
   "sid":"THEOV:178",
   "esid":"THEOV:178",
-  "parent":133,
+  "parent":142,
   "children":[
   ],
   "name":"Target\nAcquisition",
@@ -5479,13 +5766,13 @@
   "sameAsElement":true
  },
  {
-  "hid":136,
+  "hid":145,
   "sid":"THEOV:188",
   "esid":"THEOV:188",
-  "parent":133,
+  "parent":142,
   "children":[
-   137,
-   138
+   146,
+   147
   ],
   "name":"Tracker and Sightline Rate\nEstimator",
   "fullname":"THEOV/Seeker//Tracker/Tracker and Sightline Rate Estimator",
@@ -5541,10 +5828,10 @@
   "sameAsElement":true
  },
  {
-  "hid":137,
+  "hid":146,
   "sid":"THEOV:193",
   "esid":"THEOV:193",
-  "parent":136,
+  "parent":145,
   "children":[
   ],
   "name":"Estimator Filter",
@@ -5579,10 +5866,10 @@
   "sameAsElement":true
  },
  {
-  "hid":138,
+  "hid":147,
   "sid":"THEOV:217",
   "esid":"THEOV:217",
-  "parent":136,
+  "parent":145,
   "children":[
   ],
   "name":"Switch to Closed\nLoop Tracking",
@@ -5612,7 +5899,7 @@
   "sameAsElement":true
  },
  {
-  "hid":139,
+  "hid":148,
   "sid":"THEOV:238",
   "esid":"THEOV:238",
   "parent":1,
@@ -5653,7 +5940,25 @@
   "sameAsElement":true
  },
  {
-  "hid":140,
+  "hid":149,
+  "sid":"THEOV:358",
+  "esid":"THEOV:358",
+  "parent":1,
+  "children":[
+  ],
+  "name":"Turn Coordinator",
+  "fullname":"THEOV/Turn Coordinator",
+  "label":"Turn Coordinator",
+  "icon":"WebViewIcon4",
+  "svg":"support/slwebview_files/THEOV_358_d.svg",
+  "thumbnail":"support/slwebview_files/THEOV_358_d.png",
+  "backingUrl":"support/slwebview_files/THEOV_358_d.json",
+  "elements":[
+  ],
+  "sameAsElement":true
+ },
+ {
+  "hid":150,
   "sid":"THEOV:155",
   "esid":"THEOV:155",
   "parent":1,
