@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependencyReport Version="1.1">
+   <FileList ProjectRoot="C:\Users\smirsky\MATLAB\Projects\THEO\models">
+      <FileState>
+         <FileName RelativeTo="projectroot">THEO.slx</FileName>
+         <Size>75495</Size>
+         <LastModifiedDate>2018-09-11 16:35:48</LastModifiedDate>
+         <Exportable>true</Exportable>
+      </FileState>
+      <FileState>
+         <FileName RelativeTo="none">C:\Users\smirsky\MATLAB\Projects\THEO\Scripts\aero_guid_dat.m</FileName>
+         <Size>4796</Size>
+         <LastModifiedDate>2018-09-06 11:36:51</LastModifiedDate>
+         <Exportable>true</Exportable>
+      </FileState>
+      <FileState>
+         <FileName RelativeTo="none">C:\work\customers\BMC\THEO.slxc</FileName>
+         <Size>5606</Size>
+         <LastModifiedDate>2018-09-07 09:30:35</LastModifiedDate>
+         <Exportable>true</Exportable>
+      </FileState>
+   </FileList>
+   <MDLDepSet>
+      <MDLName IsLibrary="false">THEO</MDLName>
+      <FileName RelativeTo="projectroot">THEO.slx</FileName>
+      <AnalysisDate>11-Sep-2018 16:38:25</AnalysisDate>
+      <AnalysisOptions>
+         <AnalyzeMathWorksFiles>false</AnalyzeMathWorksFiles>
+         <AnalyzeUserToolboxFiles>true</AnalyzeUserToolboxFiles>
+         <StoreReferences>true</StoreReferences>
+         <FindLibraryLinks>true</FindLibraryLinks>
+         <FindModelRefs>true</FindModelRefs>
+         <FindSFunctions>true</FindSFunctions>
+         <FindCallbackFiles>true</FindCallbackFiles>
+         <FindCodeGenFiles>true</FindCodeGenFiles>
+         <FindUserDependencies>true</FindUserDependencies>
+         <FindDataFiles>true</FindDataFiles>
+         <FindRequirementsDocs>false</FindRequirementsDocs>
+         <AnalyzeStateflow>true</AnalyzeStateflow>
+         <AnalyzeEML>true</AnalyzeEML>
+         <AnalyzeMFiles>true</AnalyzeMFiles>
+         <FindSimscapeFiles>true</FindSimscapeFiles>
+         <AllowUnsavedChanges>false</AllowUnsavedChanges>
+         <StoreMathWorksReferences>false</StoreMathWorksReferences>
+         <StoreWarnings>true</StoreWarnings>
+         <CloseModels>false</CloseModels>
+         <FindWorkspaceVars>false</FindWorkspaceVars>
+         <OptimizedMode>false</OptimizedMode>
+         <FindEnums>false</FindEnums>
+         <AnalyzeTestHarnesses>true</AnalyzeTestHarnesses>
+      </AnalysisOptions>
+      <ReferencedModels/>
+      <LinkedLibraries/>
+      <Toolboxes>
+         <ToolboxDetails>
+            <DirectoryName>matlab</DirectoryName>
+            <Name>MATLAB</Name>
+            <Version>9.4</Version>
+            <Release>(R2018a)</Release>
+            <Date>06-Feb-2018</Date>
+         </ToolboxDetails>
+         <ToolboxDetails>
+            <DirectoryName>simulink</DirectoryName>
+            <Name>Simulink</Name>
+            <Version>9.1</Version>
+            <Release>(R2018a)</Release>
+            <Date>06-Feb-2018</Date>
+         </ToolboxDetails>
+         <ToolboxDetails>
+            <DirectoryName>simulinkcoder</DirectoryName>
+            <Name>Simulink Coder</Name>
+            <Version>8.14</Version>
+            <Release>(R2018a)</Release>
+            <Date>06-Feb-2018</Date>
+         </ToolboxDetails>
+      </Toolboxes>
+      <AllFiles>
+         <FileName RelativeTo="projectroot">THEO.slx</FileName>
+         <FileName RelativeTo="none">C:\Users\smirsky\MATLAB\Projects\THEO\Scripts\aero_guid_dat.m</FileName>
+         <FileName RelativeTo="none">C:\work\customers\BMC\THEO.slxc</FileName>
+      </AllFiles>
+      <AllIncludeDirs/>
+      <AllReferences>
+         <FileReference>
+            <FileName RelativeTo="none">C:\Users\smirsky\MATLAB\Projects\THEO\Scripts\aero_guid_dat.m</FileName>
+            <ReferenceType>ModelCallback,PreLoadFcn</ReferenceType>
+            <ReferenceLocation>THEO</ReferenceLocation>
+            <Resolved>true</Resolved>
+            <ToolboxDetails/>
+         </FileReference>
+         <FileReference>
+            <FileName RelativeTo="none">C:\work\customers\BMC\THEO.slxc</FileName>
+            <ReferenceType>SimulinkCache</ReferenceType>
+            <ReferenceLocation>THEO</ReferenceLocation>
+            <Resolved>true</Resolved>
+            <ToolboxDetails/>
+         </FileReference>
+      </AllReferences>
+   </MDLDepSet>
+</DependencyReport>
